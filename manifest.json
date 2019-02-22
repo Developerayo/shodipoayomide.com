@@ -1,7 +1,7 @@
 {
     "name": "Developerayo",
     "short_name" : "Developerayo",
-    "start_url": "shodipoayomide.com",
+    "start_url": "index.html?utm_source=homescreen",
     "scope" : "./",
     "icons": [
         {
