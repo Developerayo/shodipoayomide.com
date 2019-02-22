@@ -1,11 +1,7 @@
 {
-  "version": 0.2,
-  "name": "developerayo",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": { "distDir": "public" }
-    }
-  ]
+    "version": 2,
+    "name": "gatsby",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+    ]
 }
