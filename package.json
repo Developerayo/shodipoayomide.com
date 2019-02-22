@@ -73,7 +73,8 @@
 }
 
 {
-  "scripts": {
-    "now-build": "npm run build"
-  }
+    "scripts": {
+        ...
+        "now-build": "npm run build"
+    }
 }
