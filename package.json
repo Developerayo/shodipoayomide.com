@@ -71,3 +71,10 @@
     ]
   }
 }
+
+{
+    "scripts": {
+        ...
+        "now-build": "npm run build"
+    }
+}
