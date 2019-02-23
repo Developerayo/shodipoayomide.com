@@ -1,0 +1,21 @@
+{
+    "name": "Developerayo",
+    "short_name" : "Developerayo",
+    "start_url": "index.html?utm_source=homescreen",
+    "scope" : "./",
+    "icons": [
+        {
+            "src": "src/assets/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "src/assets/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#AC81CD",
+    "background_color": "#AC81CD",
+    "display": "standalone"
+}
