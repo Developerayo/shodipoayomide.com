@@ -1,11 +1,11 @@
 {
-  "name": "developerayo",
+  "name": "overreacted",
   "private": true,
-  "description": "developerayo",
-  "version": "8.10.0",
-  "author": "Shodipo Ayomide <shodipovi@gmail.com>",
+  "description": "Overreacted",
+  "version": "1.0.0",
+  "author": "Dan Abramov <dan.abramov@me.com>",
   "bugs": {
-    "url": "https://github.com/developerayo/shodipoayomide.com/issues"
+    "url": "https://github.com/gaearon/overreacted.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -37,8 +37,7 @@
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
-    "typography-theme-wordpress-2016": "^0.15.10",
-    "update-node": "^0.1.0"
+    "typography-theme-wordpress-2016": "^0.15.10"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -46,7 +45,7 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "http://developerayo.com",
+  "homepage": "https://overreacted.io",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
@@ -56,7 +55,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) shodipoayomide.com",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) overreacted.io",
     "dry": "yarn build && cp now.json public/ && cd public && now"
   },
   "husky": {
