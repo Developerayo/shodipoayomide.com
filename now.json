@@ -1,0 +1,11 @@
+{
+  "version": 0.2,
+  "name": "developerayo",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ]
+}
