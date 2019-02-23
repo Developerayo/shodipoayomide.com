@@ -13,12 +13,13 @@ class Footer extends React.Component {
         <div style={{ float: 'right' }}>
         </div>
         <a
-          href="https://github.com/developerayo"
+          href="https://facebook.com/shodipo.ayomide"
           target="_blank"
           rel="noopener noreferrer"
         >
-          github
-        </a>
+          facebook
+        </a>{' '}
+        &bull; {' '}
         <a
           href="https://twitter.com/developerayo"
           target="_blank"
