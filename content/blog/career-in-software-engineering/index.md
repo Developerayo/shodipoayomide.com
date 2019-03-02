@@ -82,3 +82,4 @@ Software Engineers earn a median salary of $2.6m per year. Salaries typically st
 Thanks for reading! 🔥🚀 </br>
 
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-via="developerayo" data-hashtags="developerayo" data-related="" data-show-count="false">Share on Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
