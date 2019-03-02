@@ -44,7 +44,7 @@ module.exports = {
           `gatsby-remark-smartypants`,
         ],
       },
-    },
+    }, 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
