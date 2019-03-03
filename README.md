@@ -1,6 +1,7 @@
 ![Main Logo](https://res.cloudinary.com/developerayo/image/upload/v1551645703/Shodipo_Ayomide_White_and_Black.png)
 This was bootstrapped via [gatsby starter blog](https://github.com/gatsbyjs/gatsby-starter-blog),</br>
 Lot's of nice pieces are also borrowed from [Dan Abramov Personal blog "overreacted.io"](https://github.com/gaearon/overreacted.io),</br>
+Also from [Kent C. Dodds Personal Webite "kentcdodds.com'](http://kentcdodds.com)</br>
 A starter project in [Gatsby.js](https://www.gatsbyjs.org/) with [MDX](https://github.com/mdx-js/mdx).</br></br>
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <p align="center">
