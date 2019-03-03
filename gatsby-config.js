@@ -55,7 +55,7 @@ module.exports = {
     },
     `gatsby-plugin-feed`,
     {
-      resolve: `663399663399`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Developerayo`,
         short_name: `Developerayo`,
