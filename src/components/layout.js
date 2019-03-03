@@ -1,11 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import Toggle from './Toggle';
 import Helmet from 'react-helmet';
 
 import { rhythm, scale } from "../utils/typography"
-import sun from './sun.png';
-import moon from './moon.png';
 
 class Layout extends React.Component {
   render() {
