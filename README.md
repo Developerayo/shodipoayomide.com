@@ -46,6 +46,13 @@ now open https://localhost:8000.
 npm i gatsby-cli
 ```
 
+## Built with
+<img src="https://avatars1.githubusercontent.com/u/12551863?s=200&v=4" alt="Gatsby" width="50px" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React" width="80px"/>
+<img src="https://graphql.org/img/logo.svg" alt="GraphQL" width="50px" />
+<img src="https://avatars0.githubusercontent.com/u/1460763?s=200&v=4" alt="Cloudinary" width="50px" />
+<img src="https://avatars2.githubusercontent.com/u/37453691?s=200&v=4" alt="mdx" width="50px" />
+
+
 ## Contributors
 
 Thanks goes to these wonderful people emoji key
