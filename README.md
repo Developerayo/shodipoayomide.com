@@ -43,4 +43,3 @@ now open https://localhost:8000.
 ```
 npm i gatsby-cli
 ```
-
