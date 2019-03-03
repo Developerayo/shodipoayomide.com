@@ -33,7 +33,7 @@ function Bio() {
               }}
             />
             <p style={{ maxWidth: 310 }}>
-              Articles on Software Engineering by <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer"> Developerayo.</a> (Developer Advocate & Software Engineer at VanHack).
+              Articles on Software Engineering by <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer"> Developerayo.</a> (Developer Advocate & Engineer at VanHack).
               {` `}
             </p>
           </div>
