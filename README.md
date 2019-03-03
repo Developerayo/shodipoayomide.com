@@ -9,3 +9,24 @@
   <a href="">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   </a>                                                                                                            
+
+## Usage
+
+Run locally:
+
+```
+yarn install
+```
+Then
+
+```
+yarn dev
+```
+now open https://localhost:8000.
+
+## Installing gatsby-cli
+
+```
+npm i gatsby-cli
+```
+
