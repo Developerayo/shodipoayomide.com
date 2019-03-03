@@ -14,10 +14,21 @@
 
 Run locally:
 
+Clone
+```
+git clone https://github.com/Developerayo/shodipoayomide.com.git
+```
+
+Move into the file with
+```
+cd shodipoayomide.com
+```
+
+Then
 ```
 yarn install
 ```
-Then
+Start dev server
 
 ```
 yarn dev
