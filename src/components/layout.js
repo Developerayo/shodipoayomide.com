@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Helmet from 'react-helmet';
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -20,7 +19,6 @@ class Layout extends React.Component {
             fontFamily: `Montserrat, Montserrat`,
           }}
         >
-
           <Link
             style={{
               boxShadow: `none`,
@@ -65,20 +63,20 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer align="left" style={{marginTop: `100px`}}>
-          <a href="http://linkedin.com/in/shodipo.ayomide">Linkedin</a>{` `}
-          <a href="http://twitter.com/developerayo">Twitter</a>{` `}
-          <a href="http://github.com/developerayo">GitHub</a>{` `}
-          <a href="http://fb.com/shodipo.ayomide">Facebook</a>{` `}
-           <div>
-
-            
-          </div>
+        <footer align="left" style={{ marginTop: `100px` }}>
+          <a href="http://linkedin.com/in/shodipo.ayomide">Linkedin</a>
+          {` `}
+          <a href="http://twitter.com/developerayo">Twitter</a>
+          {` `}
+          <a href="http://github.com/developerayo">GitHub</a>
+          {` `}
+          <a href="http://fb.com/shodipo.ayomide">Facebook</a>
+          {` `}
+          <div />
         </footer>
       </div>
     )
   }
-
 }
 
 export default Layout
