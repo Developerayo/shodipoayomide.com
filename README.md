@@ -52,6 +52,7 @@ npm i gatsby-cli
 <img src="https://graphql.org/img/logo.svg" alt="GraphQL" width="50px" />
 <img src="https://avatars0.githubusercontent.com/u/1460763?s=200&v=4" alt="Cloudinary" width="50px" />
 <img src="https://avatars2.githubusercontent.com/u/37453691?s=200&v=4" alt="mdx" width="50px" />
+<img src="https://avatars2.githubusercontent.com/u/11140484?s=200&v=4" alt="Prism.js" width="50px" />
 
 
 ## Contributors
