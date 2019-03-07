@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Helmet from 'react-helmet';
-
+import ScrollUpButton from "react-scroll-up-button";
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -63,6 +63,14 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+      <div>
+        <ScrollUpButton
+          EasingType="easeInOutQuad"
+          StopPosition={1}
+          ShowAtPosition={500}
+          AnimationDuration={700}
+        />
+      </div>
         <header>{header}</header>
         <main>{children}</main>
         <footer align="left" style={{marginTop: `100px`}}>
@@ -74,6 +82,7 @@ class Layout extends React.Component {
 
             
           </div>
+          
         </footer>
       </div>
     )

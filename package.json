@@ -29,6 +29,8 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
+    "react-scroll-to": "^2.0.5",
+    "react-scroll-up-button": "^1.6.4",
     "react-typography": "^0.16.18",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
@@ -49,11 +51,10 @@
     "url": "git+https://github.com/developerayo/shodipoayomide.com.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "rm -rf public && rm -rf .cache && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "build": "rm -rf public && rm -rf .cache && gatsby build",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "now-build": "npm run build"

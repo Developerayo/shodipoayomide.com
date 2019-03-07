@@ -220,3 +220,10 @@ pre[data-line] {
   float: left;
   min-width: 100%;
 }
+
+.scrollup1 {
+  cursor: pointer;
+  background-color: red;
+  color: red;
+
+}
