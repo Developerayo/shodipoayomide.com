@@ -20,7 +20,6 @@ class Layout extends React.Component {
             fontFamily: `Montserrat, Montserrat`,
           }}
         >
-
           <Link
             style={{
               boxShadow: `none`,
@@ -79,15 +78,10 @@ class Layout extends React.Component {
           <a href="http://github.com/developerayo">GitHub</a>{` `}
           <a href="http://fb.com/shodipo.ayomide">Facebook</a>{` `}
            <div>
-
-            
-          </div>
-          
+        </div>    
         </footer>
       </div>
     )
   }
-
 }
-
 export default Layout

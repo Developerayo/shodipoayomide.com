@@ -16,7 +16,13 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Developerayo"
-          keywords={[`Developerayo`, `shodipo ayomide`, `javascript`, `react`, `gatsby`]}
+          keywords={[
+            `Developerayo`,
+            `shodipo ayomide`,
+            `javascript`,
+            `react`,
+            `gatsby`,
+          ]}
         />
         <Bio />
         {posts.map(({ node }) => {
@@ -28,11 +34,20 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none`, color:`var(--pink)`, fontFamily: `sans-serif, sans-serif`}} to={node.fields.slug}>
+                <Link
+                  style={{
+                    boxShadow: `none`,
+                    color: `var(--pink)`,
+                    fontFamily: `sans-serif, sans-serif`,
+                  }}
+                  to={node.fields.slug}
+                >
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small>
+                {node.frontmatter.date} • {node.timeToRead} min read
+              </small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -59,6 +74,7 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
+          timeToRead
           fields {
             slug
           }
