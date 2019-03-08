@@ -72,23 +72,13 @@ class Layout extends React.Component {
       </div>
         <header>{header}</header>
         <main>{children}</main>
-        <footer align="left" style={{ marginTop: `100px` }}>
-          <a href="http://linkedin.com/in/shodipo.ayomide">Linkedin</a>
-          {` `}
-          <a href="http://twitter.com/developerayo">Twitter</a>
-          {` `}
-          <a href="http://github.com/developerayo">GitHub</a>
-          {` `}
-          <a href="http://fb.com/shodipo.ayomide">Facebook</a>
-          {` `}
-          <div />
         <footer align="left" style={{marginTop: `100px`}}>
           <a href="http://linkedin.com/in/shodipo.ayomide">Linkedin</a>{` `}
           <a href="http://twitter.com/developerayo">Twitter</a>{` `}
           <a href="http://github.com/developerayo">GitHub</a>{` `}
           <a href="http://fb.com/shodipo.ayomide">Facebook</a>{` `}
-           <div>            
-          </div>
+           <div>
+        </div>    
         </footer>
       </div>
     )
