@@ -14,6 +14,21 @@ The tag always used in AIML used to specify a new function is the <mark style="b
 
 But note something just as in HTML or any other programming Language or Scripting Language Even Markup Languages have a closing tag, here in AIML there is really not much a difference, the closing tags are <mark style="background-color: #9a69c2;">/category</mark>, <mark style="background-color: #9a69c2;">/template</mark>, <mark style="background-color: #9a69c2;">/srai></mark>, <mark style="background-color: #9a69c2;">/set</mark>…etc	
 
+```javascript{numberLines: 5}
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
+
+
 ## Example
 
 ![Example1](https://res.cloudinary.com/developerayo/image/upload/v1551552577/carbon_1.png)
