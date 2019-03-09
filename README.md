@@ -3,7 +3,7 @@ This was bootstrapped via [gatsby starter blog](https://github.com/gatsbyjs/gats
 Lot's of nice pieces are also borrowed from [Dan Abramov Personal blog "overreacted.io"](https://github.com/gaearon/overreacted.io),</br>
 Also from [Kent C. Dodds Personal Webite "kentcdodds.com'](http://kentcdodds.com)</br>
 A starter project in [Gatsby.js](https://www.gatsbyjs.org/) with [MDX](https://github.com/mdx-js/mdx).</br></br>
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 <p align="center">
    <a href="">
     <img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg" alt="PRs welcome!" />
@@ -61,7 +61,7 @@ Thanks goes to these wonderful people emoji key
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/20538832?v=4" width="100px;" alt="Developerayo"/><br /><sub><b>Developerayo</b></sub>](http://www.shodipoayomide.com)<br />[💻](https://github.com/Developerayo/shodipoayomide.com/commits?author=Developerayo "Code") [🚇](#infra-Developerayo "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/Developerayo/shodipoayomide.com/commits?author=Developerayo "Tests") [🚧](#maintenance-Developerayo "Maintenance") [📢](#talk-Developerayo "Talks") | [<img src="https://avatars1.githubusercontent.com/u/1507057?v=4" width="100px;" alt="Osamah Aldoaiss"/><br /><sub><b>Osamah Aldoaiss</b></sub>](https://github.com/Saifadin)<br />[💻](https://github.com/Developerayo/shodipoayomide.com/commits?author=Saifadin "Code") |
-| :---: | :---: |
+| [<img src="https://avatars2.githubusercontent.com/u/20538832?v=4" width="100px;" alt="Developerayo"/><br /><sub><b>Developerayo</b></sub>](http://www.shodipoayomide.com)<br />[💻](https://github.com/Developerayo/shodipoayomide.com/commits?author=Developerayo "Code") [🚇](#infra-Developerayo "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/Developerayo/shodipoayomide.com/commits?author=Developerayo "Tests") [🚧](#maintenance-Developerayo "Maintenance") [📢](#talk-Developerayo "Talks") | [<img src="https://avatars1.githubusercontent.com/u/1507057?v=4" width="100px;" alt="Osamah Aldoaiss"/><br /><sub><b>Osamah Aldoaiss</b></sub>](https://github.com/Saifadin)<br />[💻](https://github.com/Developerayo/shodipoayomide.com/commits?author=Saifadin "Code") | [<img src="https://avatars2.githubusercontent.com/u/163561?v=4" width="100px;" alt="Jason Lengstorf"/><br /><sub><b>Jason Lengstorf</b></sub>](https://lengstorf.com)<br />[🤔](#ideas-jlengstorf "Ideas, Planning, & Feedback") |
+| :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
