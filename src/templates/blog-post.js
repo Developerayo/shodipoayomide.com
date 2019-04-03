@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { TwitterShareButton, TwitterIcon, FacebookShareButton, FacebookIcon, LinkedinShareButton,LinkedinIcon, RedditShareButton, RedditIcon, WhatsappShareButton, WhatsappIcon } from "react-share"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -10,8 +11,9 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
-
+    const { previous, next, slug } = this.props.pageContext
+    console.log(this.props.pageContext)
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -30,16 +32,54 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date} • {post.timeToRead} min read
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <TwitterShareButton
+          title={post.frontmatter.title}
+          url={`https://www.shodipoayomide.com${slug}`}
+          style={{
+          
+          }}
+        >
+          <TwitterIcon size={40} round={true}/>
+        </TwitterShareButton>
+
+        <FacebookShareButton
+          title={post.frontmatter.title}
+          url={`https://www.shodipoayomide.com${slug}`}
+        >
+          <FacebookIcon size={40} round={true} />
+        </FacebookShareButton>
+
+        <LinkedinShareButton
+          title={post.frontmatter.title}
+          url={`https://www.shodipoayomide.com${slug}`}
+        >
+          <LinkedinIcon size={40} round={true} />
+        </LinkedinShareButton>
+
+        <RedditShareButton
+          title={post.frontmatter.title}
+          url={`https://www.shodipoayomide.com${slug}`}
+        >
+          <RedditIcon size={40} round={true} />
+        </RedditShareButton>
+
+        <WhatsappShareButton
+          title={post.frontmatter.title}
+          url={`https://www.shodipoayomide.com${slug}`}
+        >
+          <WhatsappIcon size={40} round={true} />
+        </WhatsappShareButton>
         <hr
           style={{
             marginBottom: rhythm(1),
+            marginTop: rhythm(0.5),
           }}
         />
         <Bio />
 
         <ul
           style={{
-            display: `flex`,
+            display: `block`,
             flexWrap: `wrap`,
             justifyContent: `space-between`,
             listStyle: `none`,
