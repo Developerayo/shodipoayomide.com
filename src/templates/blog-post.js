@@ -47,7 +47,7 @@ class BlogPostTemplate extends React.Component {
           <TwitterShareButton
             title={post.frontmatter.title}
             url={`https://www.shodipoayomide.com${slug}`}
-            style={{}}
+            style={{padding: `0 0.3rem`}}
           >
             <TwitterIcon size={40} round={true} />
           </TwitterShareButton>
@@ -55,6 +55,7 @@ class BlogPostTemplate extends React.Component {
           <FacebookShareButton
             title={post.frontmatter.title}
             url={`https://www.shodipoayomide.com${slug}`}
+            style={{padding: `0 0.3rem`}}
           >
             <FacebookIcon size={40} round={true} />
           </FacebookShareButton>
@@ -62,6 +63,7 @@ class BlogPostTemplate extends React.Component {
           <LinkedinShareButton
             title={post.frontmatter.title}
             url={`https://www.shodipoayomide.com${slug}`}
+            style={{padding: `0 0.3rem`}}
           >
             <LinkedinIcon size={40} round={true} />
           </LinkedinShareButton>
@@ -69,6 +71,7 @@ class BlogPostTemplate extends React.Component {
           <RedditShareButton
             title={post.frontmatter.title}
             url={`https://www.shodipoayomide.com${slug}`}
+            style={{padding: `0 0.3rem`}}
           >
             <RedditIcon size={40} round={true} />
           </RedditShareButton>
@@ -76,6 +79,7 @@ class BlogPostTemplate extends React.Component {
           <WhatsappShareButton
             title={post.frontmatter.title}
             url={`https://www.shodipoayomide.com${slug}`}
+            style={{padding: `0 0.3rem`}}
           >
             <WhatsappIcon size={40} round={true} />
           </WhatsappShareButton>

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Developerayo`,
     author: `Shodipo Ayomide`,
-    description: `Articles on Software Engineering by Developerayo. Developer Advocate & Software Engineer.`,
+    description: `Articles on things frontend, Software Engineering by Developerayo. Developer Advocate & Software Engineer at VanHack and at Fremer.`,
     siteUrl: `http://shodipoayomide.com`,
     social: {
       twitter: `developerayo`,
