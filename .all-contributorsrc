@@ -39,6 +39,16 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "ooade",
+      "name": "Ademola ⚡️",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11811904?v=4",
+      "profile": "https://ademola.adegbuyi.me",
+      "contributions": [
+        "code",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7
