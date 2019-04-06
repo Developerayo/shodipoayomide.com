@@ -49,6 +49,15 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "brotzky",
+      "name": "Dennis Brotzky",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8007686?v=4",
+      "profile": "https://brotzky.co",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
