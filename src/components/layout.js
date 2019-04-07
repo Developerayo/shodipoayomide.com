@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Helmet from 'react-helmet';
 import ScrollUpButton from "react-scroll-up-button";
 import { rhythm, scale } from "../utils/typography"
 
