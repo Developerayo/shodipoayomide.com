@@ -9,15 +9,17 @@ description: In this article we are going to be having a walk, through deploying
 
 CodeSandbox and Netlify are like a passanger and an uber driver, the passanger enters into the car and the uber driver starts the car and keeps on moving, CodeSandbox started with a super amazing idea by [Ives van Hoorne](https://twitter.com/CompuIves) the Creator of CodeSandbox and now works fulltime developing it.
 
+```
 # Table of Contents
-## What is CodeSandbox
-### What is Netlify
-#### Clients Templates on CodeSandbox
-#####File Structure
-###### File Structure Content
-####### Claim your site
-######## Closing Thoughts
-######### Resources
+- What is CodeSandbox
+- What is Netlify
+- Clients Templates on CodeSandbox
+- File Structure
+- File Structure Content
+- Claim your site
+- Closing Thoughts
+- Resources
+```
 
 # What is CodeSandbox
 
