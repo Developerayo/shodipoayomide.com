@@ -4702,10 +4702,10 @@ gatsby-plugin-sharp@^2.0.23:
     sharp "^0.21.3"
     svgo "^0.7.2"
 
-gatsby-plugin-typography@^2.2.7:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.2.7.tgz#164869018c28da8cde70f3c451365e2c0643608f"
-  integrity sha512-ORUFM4QXBslsn0KG+e5mvhFQLdU1Txp3uPt8srFtitovuCzewg1NztdLaMnZgwpGTfrAMl98d4uaPAppiOjp6g==
+gatsby-plugin-typography@2.2.9:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.2.9.tgz#e76e20606c57ea41d995162312de86547e4c9857"
+  integrity sha512-UBMQHJT1rPoihoMxRTNHF30JzuAznfe8AJP3mGZ3DwsgkUfcceIlDe3ckPSND03A3vQoXDXwzoLCKQnrHNSoyQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
@@ -4748,10 +4748,10 @@ gatsby-remark-images@^3.0.10:
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.0.1"
 
-gatsby-remark-prismjs@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.2.4.tgz#712843d06591810a9db068934ad5c908684e7baa"
-  integrity sha512-xWmVMygN2m6TVN5rkRvg1KRLnBkSmDjjsew6kbP0e2tpK56gDr69KG0I/c57t2MW9l0EUXaRnjS/btlJSMpJqw==
+gatsby-remark-prismjs@3.2.7:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.2.7.tgz#46d9d42452168d0819dc886d39e68878607fef86"
+  integrity sha512-nRMduwIWYr/arJHveu7UIBhokQ3OIpr7f7rZvPG4ajZJQxlp1TC0a9s4WY9BoBCfcrsLkSzYjNa+y2AarvuGWQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     parse-numeric-range "^0.0.2"
@@ -4799,10 +4799,10 @@ gatsby-source-filesystem@^2.0.23:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-remark@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.3.0.tgz#4caa1194a78ce2470c2d0b2ea0e0f9351487e7d9"
-  integrity sha512-m5yInZ02Bii/SqoUwL4KDtNHKR5LQ/fcQKBI8jqBCl14O/0F8UejWpzelb5FJyiVZyUKaECONVdQh9CbHowFOA==
+gatsby-transformer-remark@2.3.8:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.3.8.tgz#bf25bceb747f1e1fd2e5809731ff6da0810c1b14"
+  integrity sha512-i0pOcPHbh9cVbkFEu6VMBNIvYErhRLZYApUm+anjSDw0FFj4LN14v/36jpt3+XCZUfJqJCkMP8pth7eS7CEJCg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -8823,10 +8823,10 @@ pretty-error@^2.1.1:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prismjs@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.15.0.tgz#8801d332e472091ba8def94976c8877ad60398d9"
-  integrity sha512-Lf2JrFYx8FanHrjoV5oL8YHCclLQgbJcVZR+gikGGMqz6ub5QVWDTM6YIwm3BuPxM/LOV+rKns3LssXNLIf+DA==
+prismjs@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.16.0.tgz#406eb2c8aacb0f5f0f1167930cb83835d10a4308"
+  integrity sha512-OA4MKxjFZHSvZcisLGe14THYsug/nF6O1f0pAJc0KN0wTyAcLqmsbE+lTGKSpyh+9pEW57+k6pg2AfYR+coyHA==
   optionalDependencies:
     clipboard "^2.0.0"
 
