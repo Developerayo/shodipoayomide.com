@@ -24,9 +24,9 @@ function SEO({ description, lang, meta, keywords, title }) {
     <Helmet
       htmlAttributes={{
         lang,
-      }}
+      }} 
       title={title}
-      titleTemplate={`%s | Articles on Software Engineering by Developerayo {Developer Advocate & Software Engineer`}
+      titleTemplate={`%s | Articles on things frontend, Software Engineering by Developerayo. Developer Advocate & Software Engineer at VanHack and at Fremer.`}
       meta={[
         {
           name: `description`,

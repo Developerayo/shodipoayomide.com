@@ -12,6 +12,8 @@ import {
   WhatsappShareButton,
   WhatsappIcon,
 } from "react-share"
+import Prism from "prismjs";
+import "../css/prism.css";
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -19,6 +21,9 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
+  componentDidMount() {
+    Prism.highlightAll();
+  }
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -46,6 +51,7 @@ class BlogPostTemplate extends React.Component {
         <div style={{ display: "flex" }}>
           <TwitterShareButton
             title={post.frontmatter.title}
+            text={`@developerayo`}
             url={`https://www.shodipoayomide.com${slug}`}
             style={{padding: `0 0.3rem`}}
           >
