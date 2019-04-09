@@ -32,18 +32,21 @@ When the user inputs this in on some very close to this, the bot will respond to
 
 Now lets create a simple bot using AIML
 
-```javascript
-// In your gatsby-config.js
-plugins: [
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        `gatsby-remark-prismjs`,
-      ]
-    }
-  }
-]
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<em>Emphasized text</em><br>
+<strong>Strong text</strong><br>
+<code>A piece of computer code</code><br>
+<samp>Sample output from a computer program</samp><br>
+<kbd>Keyboard input</kbd><br>
+<var>Variable</var>
+
+</body>
+</html>
+
 ```
 
 ```AIML
