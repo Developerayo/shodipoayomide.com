@@ -32,15 +32,19 @@ When the user inputs this in on some very close to this, the bot will respond to
 
 Now lets create a simple bot using AIML
 
-<pre>
-  <code className="language-javascript">
-    class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
-</code>
-</pre>
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
 
 ```AIML
 <?xml version=”1.0" encoding=”UTF-8"?>
