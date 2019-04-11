@@ -186,6 +186,6 @@ Thanks to [Ives van Hoorne](https://twitter.com/CompuIves), [Sara Vieira](https:
 
 # Resources
 
-Link to [GitHub](https://github.com/Developerayo/react-codesandbox-to-netlify)
-Link to [CodeSandbox](https://codesandbox.io/s/mqpoxl7wjx)
-CodeSandbox-client on GitHub [CodeSandbox](https://github.com/CompuIves/codesandbox-client).
+Link to [GitHub](https://github.com/Developerayo/react-codesandbox-to-netlify)<br>
+Link to [CodeSandbox](https://codesandbox.io/s/mqpoxl7wjx)<br>
+CodeSandbox-client on [GitHub](https://github.com/CompuIves/codesandbox-client).
