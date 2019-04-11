@@ -1,6 +1,6 @@
 ---
 title: Deploying Static Sites to Netlify from CodeSandbox
-date: "2019-04-06"
+date: "2019-04-11"
 description: In this article we are going to be having a walk, through deploying your static application from CodeSandbox to Netlify.
 ---
 
@@ -180,12 +180,12 @@ Your CodeSandbox site has successfully been added to the list of your site's hos
 
 We’ve only scratched the surface with this Deploying Static Sites from CodeSandbox to netlify article. I hope you've enjoyed learning how to Deploying Static Sites from CodeSandbox to netlify.
 
-Read more on Netlify via the official Netlify Docs and use CodeSandbox as your default live editor its amazing if you are looking forward to collaborating with multiple people on a single project. Read more here, (Documentation - CodeSandbox Documentation)[https://codesandbox.io/docs]
+Read more on Netlify via the official Netlify Docs and use CodeSandbox as your default live editor its amazing if you are looking forward to collaborating with multiple people on a single project. Read more here, [Documentation - CodeSandbox Documentation](https://codesandbox.io/docs)
 
-Thanks to (Ives van Hoorne)[https://twitter.com/CompuIves], (Sara Vieira)[https://twitter.com/NikkitaFTW]  and others behind this helping us maintain and improve this amazing platfrom.
+Thanks to [Ives van Hoorne](https://twitter.com/CompuIves), [Sara Vieira](https://twitter.com/NikkitaFTW)  and others behind this helping us maintain and improve this amazing platfrom.
 
 # Resources
 
 Link to [GitHub](https://github.com/Developerayo/react-codesandbox-to-netlify)
 Link to [CodeSandbox](https://codesandbox.io/s/mqpoxl7wjx)
-CodeSandbox-client on GitHub (CodeSandbox)[https://github.com/CompuIves/codesandbox-client].
+CodeSandbox-client on GitHub [CodeSandbox](https://github.com/CompuIves/codesandbox-client).
