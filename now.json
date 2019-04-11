@@ -9,5 +9,5 @@
     {"src": "^/public/static/(.*)", "headers": {"cache-control": "public,max-age=0,revalidate"} },
     {"src": "^/(.*).(css|js)", "headers": {"cache-control": "public,max-age=0,revalidate"} },
     {"src": "^/(.*).html", "headers": {"cache-control": "public,max-age=0,must-revalidate"} }
-  ],
+  ]
 }
