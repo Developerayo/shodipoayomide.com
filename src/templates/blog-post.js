@@ -51,7 +51,7 @@ class BlogPostTemplate extends React.Component {
         <div style={{ display: "flex" }}>
           <TwitterShareButton
             title={post.frontmatter.title}
-            text={`@developerayo`}
+            via={`developerayo`}
             url={`https://www.shodipoayomide.com${slug}`}
             style={{padding: `0 0.3rem`}}
           >
@@ -60,6 +60,7 @@ class BlogPostTemplate extends React.Component {
 
           <FacebookShareButton
             title={post.frontmatter.title}
+            quote={post.frontmatter.title}
             url={`https://www.shodipoayomide.com${slug}`}
             style={{padding: `0 0.3rem`}}
           >
