@@ -1,6 +1,6 @@
 ---
 title: Deploying Static Sites to Netlify from CodeSandbox
-date: "2019-04-11"
+date: "2019-04-15"
 description: In this article we are going to be having a walk, through deploying your static application from CodeSandbox to Netlify.
 ---
 
