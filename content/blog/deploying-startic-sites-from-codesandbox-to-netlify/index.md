@@ -1,13 +1,13 @@
 ---
 title: Deploying Static Sites to Netlify from CodeSandbox
 date: "2019-04-15"
-description: In this article we are going to be having a walk, through deploying your static application from CodeSandbox to Netlify.
+description: In this article, we are going to be having a walk through deploying your static application from CodeSandbox to Netlify.
 ---
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1554445009/csb_to_netlify.png"></p>
 
 
-CodeSandbox and Netlify are like a passanger and an uber driver, the passanger enters into the car and the uber driver starts the car and keeps on moving, CodeSandbox started with a super amazing idea by [Ives van Hoorne](https://twitter.com/CompuIves) the Creator of CodeSandbox and now works fulltime developing it.
+CodeSandbox and Netlify are like a passenger and an Uber driver, the passenger enters into the car and the uber driver starts the car and keeps on moving, CodeSandbox started with a super amazing idea by Ives van Hoorne the Creator of CodeSandbox and now works fulltime developing it.
 
 ```
 # Table of Contents
@@ -46,7 +46,7 @@ Firstly, visit your https://codesandbox.io dashboard and create a simple static 
 - Svelte (svelte)
 - Static (static)
 
-In this scenario we would be using the React create-react-app template.
+In this scenario, we would be using the React create-react-app template.
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1554201857/csb01.png" width="600px"></p>
 
