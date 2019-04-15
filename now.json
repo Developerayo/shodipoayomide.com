@@ -6,8 +6,8 @@
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
     ],
     "routes": [
-    {"src": "^/public/static/(.*)", "headers": {"cache-control": "public,max-age=0,revalidate"} },
-    {"src": "^/(.*).(css|js)", "headers": {"cache-control": "public,max-age=0,revalidate"} },
+    {"src": "^/public/static/(.*)", "headers": {"cache-control": "public,max-age=0,must-revalidate"} },
+    {"src": "^/(.*).(css|js)", "headers": {"cache-control": "public,max-age=0,must-revalidate"} },
     {"src": "^/(.*).html", "headers": {"cache-control": "public,max-age=0,must-revalidate"} }
   ]
 }
