@@ -14,11 +14,6 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <div className="helmet">
-      <Helmet>
-<meta name="google-site-verification" content="EgzwQX2aIzAl52Crpkb-j-cb5hjV1oh5jEsxjtJO6yA"/>
-      </Helmet>
-      </div>
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Developerayo"
@@ -30,6 +25,11 @@ class BlogIndex extends React.Component {
             `gatsby`,
           ]}
         />
+      <div className="helmet">
+      <Helmet>
+<meta name="google-site-verification" content="EgzwQX2aIzAl52Crpkb-j-cb5hjV1oh5jEsxjtJO6yA"/>
+      </Helmet>
+      </div>
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
