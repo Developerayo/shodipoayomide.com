@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import {Helmet} from "react-helmet";
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -13,6 +14,11 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
+      <div className="helmet">
+      <Helmet>
+<meta name="google-site-verification" content="EgzwQX2aIzAl52Crpkb-j-cb5hjV1oh5jEsxjtJO6yA"/>
+      </Helmet>
+      </div>
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Developerayo"
