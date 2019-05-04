@@ -31,8 +31,6 @@ class talks extends React.Component {
       </p>
       <center><p>...</p></center>
 
-
-
       </Layout>
     )
   }
