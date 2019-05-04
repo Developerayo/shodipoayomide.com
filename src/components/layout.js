@@ -80,6 +80,8 @@ class Layout extends React.Component {
           {` `}
           <a href="http://fb.com/shodipo.ayomide">Facebook</a>
           {` `}
+          <a href="http://shodipoayomide.com/talks"><b>Talks</b></a>
+          {` `}
           <div />
         </footer>
       </div>
