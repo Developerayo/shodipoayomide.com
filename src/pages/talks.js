@@ -13,9 +13,9 @@ class talks extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
       <SEO title="Talks" />
       <h1>Upcoming Talks</h1>
-      <p>1)<b>Conference Name:</b> Wordpress Conferenc,<br /> &nbsp;&nbsp;&nbsp;<b>City:</b> Lagos, Nigeria,<br />&nbsp;&nbsp;&nbsp;
+      <p>1)<b>Conference Name:</b> WordCamp Lagos Conference 2019<br /> &nbsp;&nbsp;&nbsp;<b>City:</b> Lagos, Nigeria,<br />&nbsp;&nbsp;&nbsp;
       <b>Topic:</b> Remote Work <br />&nbsp;&nbsp;&nbsp;<b>Date:</b> 11th January 2019
-      </p>
+      </p> 
 
       <h1>Past Talks</h1>
       <p>1)<b>Conference Name:</b> Full Stack Developers Conference,<br /> &nbsp;&nbsp;&nbsp;<b>City:</b> Lekki, Lagos, Nigeria,<br />&nbsp;&nbsp;&nbsp;
