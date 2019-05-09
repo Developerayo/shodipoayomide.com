@@ -1,6 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import {Helmet} from "react-helmet";
 
+// import Bio from "../components/tag"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,6 +26,7 @@ class BlogIndex extends React.Component {
             `gatsby`,
           ]}
         />
+       
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
