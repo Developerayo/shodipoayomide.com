@@ -2,6 +2,7 @@
 title: Getting started with Rasberry Pi 3
 date: "2019-05-16"
 description: Rasberry Pi 3 is a small computer the size of an ATM card which was built by the Rasberry Pi foundation and has the ability to connect with external devices and networks via wireless LAN and Bluetooth connectivity.
+image: https://res.cloudinary.com/developerayo/image/upload/f_png,q_auto:best/v1557992620/samm-market-app-banner-03.png
 ---
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/f_png,q_auto:best/v1557992620/samm-market-app-banner-03.png"></p>
