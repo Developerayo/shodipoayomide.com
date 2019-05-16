@@ -4,7 +4,7 @@ date: "2019-05-16"
 description: Rasberry Pi 3 is a small computer the size of an ATM card which was built by the Rasberry Pi foundation and has the ability to connect with external devices and networks via wireless LAN and Bluetooth connectivity.
 ---
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1554445009/csb_to_netlify.png"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/f_png,q_auto:best/v1557992620/samm-market-app-banner-03.png"></p>
 
 Rasberry Pi 3 is a small computer the size of an ATM card which was built by the Rasberry Pi foundation and has the ability to connect with external devices and networks via wireless LAN and Bluetooth connectivity.
 
@@ -57,11 +57,11 @@ If you are looking for a mini computer to run some programs, the Rasberry Pi Mod
 
 # Resources
 
-[Raspberry Pi for Developers](https://www.pluralsight.com/courses/raspberry-pi-for-developers?gclid=CjwKCAjwlPTmBRBoEiwAHqpvhcLhnmFPSav0GJcSaA2aDicWAmj9pR21yMhtMzl0SgdCKTUiGGHTLBoCBNUQAvD_BwE&ef_id=CjwKCAjwlPTmBRBoEiwAHqpvhcLhnmFPSav0GJcSaA2aDicWAmj9pR21yMhtMzl0SgdCKTUiGGHTLBoCBNUQAvD_BwE:G:s&s_kwcid=AL!5668!3!296249057644!b!!g!!&aid=7010a000002LUv2AAG&promo=&oid=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=XYZ_EMEA_Dynamic&utm_content=)
-[Introduction - Raspberry Pi tutorial in python](https://pythonprogramming.net/introduction-raspberry-pi-tutorials/)
-[Rasberry Pi Tutorials](https://tutorials-raspberrypi.com/)
-[NOOBS (New Out Of Box Software) - An easy Operating System install manager for the Raspberry Pi](https://github.com/raspberrypi/noobs)
-[Raspberry Pi Workshop for Beginners](https://core-electronics.com.au/tutorials/raspberry-pi-workshop-for-beginners.html)
-[GitHub Rasberry Pi](https://github.com/raspberrypi)
-[Awesome Rasberry Pi on GitHub](https://github.com/thibmaek/awesome-raspberry-pi)
-[Official documentation for the Raspberry Pi](https://github.com/raspberrypi/documentation)
+[Raspberry Pi for Developers](https://www.pluralsight.com/courses/raspberry-pi-for-developers?gclid=CjwKCAjwlPTmBRBoEiwAHqpvhcLhnmFPSav0GJcSaA2aDicWAmj9pR21yMhtMzl0SgdCKTUiGGHTLBoCBNUQAvD_BwE&ef_id=CjwKCAjwlPTmBRBoEiwAHqpvhcLhnmFPSav0GJcSaA2aDicWAmj9pR21yMhtMzl0SgdCKTUiGGHTLBoCBNUQAvD_BwE:G:s&s_kwcid=AL!5668!3!296249057644!b!!g!!&aid=7010a000002LUv2AAG&promo=&oid=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=XYZ_EMEA_Dynamic&utm_content=)<br>
+[Introduction - Raspberry Pi tutorial in python](https://pythonprogramming.net/introduction-raspberry-pi-tutorials/)<br>
+[Rasberry Pi Tutorials](https://tutorials-raspberrypi.com/)<br>
+[NOOBS (New Out Of Box Software) - An easy Operating System install manager for the Raspberry Pi](https://github.com/raspberrypi/noobs)<br>
+[Raspberry Pi Workshop for Beginners](https://core-electronics.com.au/tutorials/raspberry-pi-workshop-for-beginners.html)<br>
+[GitHub Rasberry Pi](https://github.com/raspberrypi)<br>
+[Awesome Rasberry Pi on GitHub](https://github.com/thibmaek/awesome-raspberry-pi)<br>
+[Official documentation for the Raspberry Pi](https://github.com/raspberrypi/documentation)<br>
