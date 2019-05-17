@@ -1,7 +1,7 @@
 {
     "version": 2,
     "name": "shodipoayomide.com",
-    "alias": "https://www.shodipoayomide.com",
+    "alias": "shodipoayomide.com",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
     ],
