@@ -1,6 +1,6 @@
 ---
 title: Getting started with Raspberry Pi 3
-date: "2019-05-16"
+date: "2019-05-17"
 description: Raspberry Pi 3 is a small computer the size of an ATM card which was built by the Raspberry Pi foundation and has the ability to connect with external devices and networks via wireless LAN and Bluetooth connectivity.
 image: https://res.cloudinary.com/developerayo/image/upload/f_png,q_auto:best/v1557992620/samm-market-app-banner-03.png
 ---
@@ -38,7 +38,7 @@ Firstly you will have to purchase a MicroSD card were the Raspbian Operating Sys
 
 # Get NOOBS
 
-NOOBS is a software that we would be using here to install the Raspbian on the Raspberry Pi 3 device, visit the [Raspberry Download page](https://www.raspberrypi.org/downloads) to get NOOBS. nce Seen download the ZIP file. once the download is done, extract the ZIP file and copy all it’s content into your EMPTY SD card, once it has been copied you can Eject the SD Card.
+NOOBS is a software that we would be using here to install the Raspbian on the Raspberry Pi 3 device, visit the [Raspberry Download page](https://www.raspberrypi.org/downloads) to get NOOBS. Once Seen, download the ZIP file. once the download is done, extract the ZIP file and copy all it’s content into your EMPTY SD card, once it has been copied you can Eject the SD Card.
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/e_bgremoval/v1557941871/pi-labelled.png" width="700px"></p> 
 
