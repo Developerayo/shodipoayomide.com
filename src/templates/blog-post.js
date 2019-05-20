@@ -85,7 +85,7 @@ class BlogPostTemplate extends React.Component {
 
           <WhatsappShareButton
             title={post.frontmatter.title}
-            url={`shodipoayomide.com${slug}`}
+            url={`https://shodipoayomide.com${slug}`}
             style={{padding: `0 0.3rem`}}
           >
             <WhatsappIcon size={40} round={true} />
