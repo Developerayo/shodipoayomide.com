@@ -52,7 +52,7 @@ class BlogPostTemplate extends React.Component {
           <TwitterShareButton
             title={post.frontmatter.title}
             via={`developerayo`}
-            url={`shodipoayomide.com${slug}`}
+            url={`https://shodipoayomide.com${slug}`}
             style={{padding: `0 0.3rem`}}
           >
             <TwitterIcon size={40} round={true} />
@@ -77,7 +77,7 @@ class BlogPostTemplate extends React.Component {
 
           <RedditShareButton
             title={post.frontmatter.title}
-            url={`shodipoayomide.com${slug}`}
+            url={`https://shodipoayomide.com${slug}`}
             style={{padding: `0 0.3rem`}}
           >
             <RedditIcon size={40} round={true} />
