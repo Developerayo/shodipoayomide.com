@@ -11,6 +11,7 @@ class talks extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
+
         <SEO title="Talks" />
         <h1>Upcoming Talks</h1>
         <p>
