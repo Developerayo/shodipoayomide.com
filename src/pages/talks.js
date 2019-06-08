@@ -14,7 +14,7 @@ class talks extends React.Component {
         <SEO title="Talks" />
         <h1>Upcoming Talks</h1>
         <p>
-          NULL
+            NULL
         </p>
 
         <h1>Past Talks</h1>
