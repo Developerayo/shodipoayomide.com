@@ -11,9 +11,13 @@ class talks extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-
         <SEO title="Talks" />
         <h1>Upcoming Talks</h1>
+        <p>
+            NULL
+        </p>
+
+        <h1>Past Talks</h1>
         <p>
           <b>Conference Name:</b> Studio 14{" "}
           <b>(Company Workshop with it's Staffs)</b>
@@ -22,10 +26,8 @@ class talks extends React.Component {
           <br />
           &nbsp;&nbsp;&nbsp;
           <b>Topic:</b> Building better teams through remote working <br />
-          &nbsp;&nbsp;&nbsp;<b>Date:</b> 04th June 2019
+          &nbsp;&nbsp;&nbsp;<b>Date:</b> 06th June 2019
         </p>
-
-        <h1>Past Talks</h1>
         <p>
           <b>Conference Name:</b> WordCamp Lagos Conference 2019
           <br /> &nbsp;&nbsp;&nbsp;<b>Location:</b> Zone Tech Park, Lagos,
