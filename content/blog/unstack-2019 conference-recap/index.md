@@ -20,8 +20,6 @@ The online zoom event impressive had 70+ developers tuned in LIVE into the event
 - [The Team](#Team🔥)
 - [Conclusion](#Conclusion🔥)
 
-<br>
-
 ## keynote🔥
 
 The main event keynote which was taken by unStack’s Lead Shodipo Ayomide kicked off 17th August at 09:30 am WAT
@@ -32,7 +30,7 @@ Where he spoke about various pointers on what exactly unStack is and where unSta
 
 ## Speakers🔥
 
-1) The first speaker was handled by Software Engineer & Founder of **Dev Career** Akintunde Sultan [@hacksultan](https://https://twitter.com/hacksultan) speaking on **Software Development: Beginner to Intermediate.**
+1) The first speaker session was handled by Software Engineer & Founder of **Dev Career** Akintunde Sultan [@hacksultan](https://https://twitter.com/hacksultan) speaking on **Software Development: Beginner to Intermediate.**
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568149245/unstack_sultan.png" width="500px"></p>
 
@@ -171,7 +169,9 @@ This beautiful and impactful event was put together by the awesome unStack team 
 
 We got a whole new insight on how much people are willing to contribute to themselves to good causes from watching the volunteer team of ushers provide a seamless experience for attendees! Worthy of mention is the fact that some members of the team were super early birds that day who reached out and simply asked: “How can I be of help?”
 
-Well, how can you help to the unStack community? For starters, join the slack group here: [unStack Slack](https://join.slack.com/t/unstackdev/shared_invite/enQtNzMwNzI3NDk5MDI5LThlMTBkYmJhZGIzNDE0NDI1NTI4ZTY4ZGNmZWQ0MmUyNWI3MTRjMTc5NDAwZTkwZWVkMTk3NDRhZDkzYTYzMTc)
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568239117/unstack_voluenteers.jpg" width="500px"></p>
+
+Well, how can you help to the unStack community? For starters, join the slack slack channel here: [unStack Slack](https://join.slack.com/t/unstackdev/shared_invite/enQtNzMwNzI3NDk5MDI5LThlMTBkYmJhZGIzNDE0NDI1NTI4ZTY4ZGNmZWQ0MmUyNWI3MTRjMTc5NDAwZTkwZWVkMTk3NDRhZDkzYTYzMTc)
 
 You can follow unStack on Twitter for more updates: [@unstack_](https://twitter.com/unstack_) or visit our website at [unstack.dev](http://unstack.dev)
 
