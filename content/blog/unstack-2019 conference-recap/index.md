@@ -1,19 +1,20 @@
 ---
 title: unStack 2019 event recap; All the announcements that matter
 date: "2019-09-12"
-description: unStack is a hands-on workshop community, tailored towars building great technical talents with a hands-on learning approach, learning about new technologies/tools and mastering patterns to navigate alrerady existing ones.
+description: unStack is a hands-on workshop community, tailored towards building great technical talents with a hands-on learning approach, learning about new technologies/tools and mastering patterns to navigate already existing ones.
 image: https://res.cloudinary.com/developerayo/image/upload/v1568027899/_MG_6613.jpg
 ---
 
-**unStack** is a hands-on workshop community, tailored towars building great technical talents with a hands-on learning approach, learning about new technologies/tools and mastering patterns to navigate alrerady existing ones.
+**unStack** is a hands-on workshop community, tailored towards building great technical talents with a hands-on learning approach, learning about new technologies/tools and mastering patterns to navigate already existing ones.
 
-This event which was completely sold out with 260+ people in attendance, being the first offline event of unStack Community is not the first event nonetheless. The first ever event of the unStack Community was an LIVE session on Zoom titled **The Future of GraphQL for the Web** with **Nadir Dabit(Developer Advocate at Amazon) & Shodipo Ayomide** as speakers.
+This event which was completely sold out with 260+ people in attendance, being the first offline event of unStack Community is not the first event nonetheless. The first-ever event of the unStack Community was a LIVE session on Zoom titled **The Future of GraphQL for the Web** with **Nadir Dabit(Developer Advocate at Amazon) & Shodipo Ayomide** as speakers.
 
-The online zoom event impressive had 70+ developers tuned in LIVE into the event on zoom. The offline event was then concieved to accommodate folks in the Lagos Developer Ecosystem who could not tune into such LIVE sessions for reasons ranging from data to time and all.
+The online zoom event impressive had 70+ developers tuned in LIVE into the event on zoom. The offline event was then conceived to accommodate folks in the Lagos Developer Ecosystem who could not tune into such LIVE sessions for reasons ranging from data to time and all.
 
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027899/_MG_6613.jpg" width="500px"></p>
 
-# Table of Contents
--  [Keynote](#keynote🔥)
+## Table of Contents
+- [Keynote](#keynote🔥)
 - [Speakers](#Speakers🔥)
 - [Sponsors](#Sponsors🔥)
 - [The Team](#Team🔥)
@@ -23,43 +24,43 @@ The online zoom event impressive had 70+ developers tuned in LIVE into the event
 
 ## keynote🔥
 
-The main event keyote which was taken by unStack's Lead Shodipo Ayomide kicked off 17th August at 09:30am WAT
+The main event keynote which was taken by unStack’s Lead Shodipo Ayomide kicked off 17th August at 09:30 am WAT
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568028226/IMG_6643.jpg" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568028226/IMG_6643.jpg" width="500px"></p>
 
-Where he spoke about verious pointers on what exactly unStack is and where unStack is heading to as a community for technical talents, unStack is not just a community of developers but is also interested in the Product designers ecosystem and related technical skills, unStack is also not tailored towards React or JavaScript but focused on the Web & Mobile ecosystem.
+Where he spoke about various pointers on what exactly unStack is and where unStack is heading to as a community for technical talents, unStack is not just a community of developers but is also interested in the Product designers ecosystem and related technical skills, unStack is also not tailored towards React or JavaScript but focused on the Web & Mobile ecosystem.
 
 ## Speakers🔥
 
 1) The first speaker was handled by Software Engineer & Founder of **Dev Career** Akintunde Sultan [@hacksultan](https://https://twitter.com/hacksultan) speaking on **Software Development: Beginner to Intermediate.**
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568149245/unstack_sultan.png" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568149245/unstack_sultan.png" width="500px"></p>
 
 2) The second workshop session was handled by Software Engineer Shedrack Akintayo [@coder_blvck](https://https://twitter.com/coder_blvck) on the topic **Getting Started with React.**
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027907/_MG_6604.jpg" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027907/_MG_6604.jpg" width="500px"></p>
 
-3) The third Workshop session was ran by Software Engineer at [Andela](http://andela.com) Benny Ogidan on the topic **Getting started with React and GraphQL**
+3) The third workshop session was run by Software Engineer at [Andela](http://andela.com) Benny Ogidan on the topic **Getting started with React and GraphQL**
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568028231/IMG_6639.jpg" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568028231/IMG_6639.jpg" width="500px"></p>
 
 4) The forth workshop session was handled by Senior Software Engineer at [Andela](https://andela.com) 
 Akinrele Sinmisola  [@simiakinrele](https://https://twitter.com/simiakinrele) on the topic **Code splitting using Suspense and Lazy**
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568150236/unstack_simi.png" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568150236/unstack_simi.png" width="500px"></p>
 
 
-5) The fifth Workshop session was taken by Media Developer Advocate at [Cloudinary](https://cloudinary.com) Obinna Ekwuno [@Obinnaspeaks](https://https://twitter.com/Obinnaspeaks) on the topic **React + Accessibility (m16y) = Awesome Web for all** 
+5) The fifth workshop session was taken by Media Developer Advocate at [Cloudinary](https://cloudinary.com) Obinna Ekwuno [@Obinnaspeaks](https://https://twitter.com/Obinnaspeaks) on the topic **React + Accessibility (m16y) = Awesome Web for all** 
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027915/IMG_6667.jpg" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027915/IMG_6667.jpg" width="500px"></p>
 
-5) The fifth Workshop session at unStack was handled by Senior JavaScript Engineer at Studio14 Abiodun Quadri [@iamphobs](https://twitter.com/iamphobs) on the topic **Advanced React Animations**.
+5) The fifth workshop session at unStack was handled by Senior JavaScript Engineer at Studio14 Abiodun Quadri [@iamphobs](https://twitter.com/iamphobs) on the topic **Advanced React Animations**.
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027879/IMG_6692.jpg" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027879/IMG_6692.jpg" width="500px"></p>
 
 6) Our fifth and last workshop session at unStack was handled by the amazing Olusegun Ayeni [@iamraphson](https://twitter.com/iamraphson/) a Software Engineer at [Paystack](https://paystack.com), who taught on the topic **Amplify your productivity with React Native** 
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027922/IMG_6708.jpg" width="400px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027922/IMG_6708.jpg" width="500px"></p>
 
 <br>
 
@@ -102,7 +103,7 @@ The unStack event had amazing sponsors who helped unStack happen so smoothly.
 
 ### Andela
 
-<p align="center"><img src="https://andela.com/wp-content/uploads/2016/01/Andela-logo-landscape-blue-400px.png" width="200px"></p>
+<p align="center"><img src="https://andela.com/wp-content/uploads/2016/01/Andela-logo-landscape-blue-500px.png" width="200px"></p>
 
 [Andela](https://www.andela.com) builds distributed engineering teams with Africa’s top software engineers. We handle talent assessment, onboarding, and continuous improvement. You get back to building and they are hiring!! 
 
@@ -151,7 +152,7 @@ The unStack event had amazing sponsors who helped unStack happen so smoothly.
 
 # Team🔥
 
-This beautiful and impactful event was put together by the awesome unStack team of 7 persons, with different strength but came together in one vision so as to collaborate and create this 🔥🔥
+This beautiful and impactful event was put together by the awesome unStack team of 7 persons, with different strength but came together in one vision to collaborate and create this 🔥🔥
 
 
 
@@ -163,7 +164,7 @@ This beautiful and impactful event was put together by the awesome unStack team 
 |   Ademola Adegbuyi   	| Front-end Engineer at Paystack / unStack Co-Lead  	| [@_ooade](https://twitter.com/_ooade)   | [ooade](https://github.com/ooade)  |
 |   Marvin Ogah	|  Product Designer / unStack Co-lead 	| NULL  | [dudesoamazing](https://dribbble.com/dudesoamazing)  |
 |   Oluebube Princess	|  Software Engineer / unStack Co-Lead 	| [@PrincesOluebube](https://twitter.com/PrincesOluebube)  | [Princesso](https://github.com/Princesso)  |
-|   Emmanuel Odianosen	|  Software Engineer / unStack Co-Lead 	|  [@iam_odiaa](https://twitter.com/iam_odiaa) | [emmaodia](https://github.com/emmaodia)   |
+|   Emmanuel Odianosen	|  Software Engineer / unStack Co-Lead 	|  [@emma_odia](https://twitter.com/emma_odia) | [emmaodia](https://github.com/emmaodia)   |
 
 
 # Conclusion🔥
