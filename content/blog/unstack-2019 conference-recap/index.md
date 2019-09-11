@@ -101,7 +101,7 @@ The unStack event had amazing sponsors who helped unStack happen so smoothly.
 
 ### Andela
 
-<p align="center"><img src="https://andela.com/wp-content/uploads/2016/01/Andela-logo-landscape-blue-400px.png" width="200px"></p>
+<p align="center"><img src="https://womeninsaleseverywhere.com/wp-content/uploads/2019/04/Company-Logos-WIS-site.png" width="200px"></p>
 
 [Andela](https://www.andela.com) builds distributed engineering teams with Africa’s top software engineers. We handle talent assessment, onboarding, and continuous improvement. You get back to building and they are hiring!! 
 
