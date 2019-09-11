@@ -26,7 +26,7 @@ The main event keynote which was taken by unStack’s Lead Shodipo Ayomide kicke
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568028226/IMG_6643.jpg" width="500px"></p>
 
-Where he spoke about various pointers on what exactly unStack is and where unStack is heading to as a community for technical talents, unStack is not just a community of developers but is also interested in the Product designers ecosystem and related technical skills, unStack is also not tailored towards React or JavaScript but focused on the Web & Mobile ecosystem.
+Where he spoke about various pointers on what exactly unStack is and where unStack is heading to as a community for technical talents, unStack is not just a community of developers but is also interested in the Product designers ecosystem and related technical skills, unStack is also not tailored towards React or JavaScript but focused on the Web & Mobile ecosystem. You can view the keynote slide deck here: **[Shodipo Ayomide Keynote Slide](https://speakerdeck.com/developerayo/welcome-to-unstack)**
 
 ## Speakers🔥
 
