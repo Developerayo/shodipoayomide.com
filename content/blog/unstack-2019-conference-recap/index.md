@@ -9,9 +9,9 @@ image: https://res.cloudinary.com/developerayo/image/upload/v1568027899/_MG_6613
 
 **unStack** is a hands-on workshop community, tailored towards building great technical talents with a hands-on learning approach, learning about new technologies/tools and mastering patterns to navigate already existing ones.
 
-This event which was completely sold out with 260+ people in attendance, being the first offline event of unStack Community is not the first event nonetheless. The first-ever event of the unStack Community was a LIVE session on Zoom titled **The Future of GraphQL for the Web** with **Nadir Dabit(Developer Advocate at Amazon) & Shodipo Ayomide** as speakers.
+This event which was completely sold out with 260+ people in attendance, being the first offline event of the unStack Community is not the first event nonetheless. The first-ever event of the unStack Community was a LIVE session on Zoom titled **The Future of GraphQL for the Web** with **Nadir Dabit(Developer Advocate at Amazon) & Shodipo Ayomide** as speakers.
 
-The online zoom event impressive had 70+ developers tuned in LIVE into the event on zoom. The offline event was then conceived to accommodate folks in the Lagos Developer Ecosystem who could not tune into such LIVE sessions for reasons ranging from data to time and all.
+The online zoom event impressively had 70+ developers tuned in LIVE into the event on zoom. The offline event was then conceived to accommodate folks in the Lagos Developer Ecosystem who could not tune into such LIVE sessions for reasons ranging from data to time and all.
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568027899/_MG_6613.jpg" width="500px"></p>
 
@@ -24,11 +24,12 @@ The online zoom event impressive had 70+ developers tuned in LIVE into the event
 
 ## keynote🔥
 
-The main event keynote which was taken by unStack’s Lead Shodipo Ayomide kicked off 17th August at 09:30 am WAT
-
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568028226/IMG_6643.jpg" width="500px"></p>
 
-Where he spoke about various pointers on what exactly unStack is and where unStack is heading to as a community for technical talents, unStack is not just a community of developers but is also interested in the Product designers ecosystem and related technical skills, unStack is also not tailored towards React or JavaScript but focused on the Web & Mobile ecosystem. You can view the keynote slide deck here: **[Shodipo Ayomide Keynote Slide](https://speakerdeck.com/developerayo/welcome-to-unstack)**
+The event keynote which was taken by unStack’s Lead Shodipo Ayomide kicked off 17th August at 09:30 am WAT
+
+
+where he spoke about various pointers on what exactly unStack is and where unStack is heading to as a community for technical talents, unStack is not just a community of developers but is also interested in the Product designers ecosystem and related technical skills, unStack is also not tailored towards React or JavaScript but focused on the Web & Mobile ecosystem. You can view the keynote slide deck here: **[Shodipo Ayomide Keynote Slide](https://speakerdeck.com/developerayo/welcome-to-unstack)**
 
 ## Speakers🔥
 
@@ -173,7 +174,7 @@ We got a whole new insight on how much people are willing to contribute to thems
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1568239117/unstack_voluenteers.jpg" width="500px"></p>
 
-Well, how can you help to the unStack community? For starters, join the slack slack channel here: [unStack Slack](https://join.slack.com/t/unstackdev/shared_invite/enQtNzMwNzI3NDk5MDI5LThlMTBkYmJhZGIzNDE0NDI1NTI4ZTY4ZGNmZWQ0MmUyNWI3MTRjMTc5NDAwZTkwZWVkMTk3NDRhZDkzYTYzMTc)
+Well, how can you be of help to the unStack community? For starters, join the slack slack channel here: [unStack Slack](https://join.slack.com/t/unstackdev/shared_invite/enQtNzMwNzI3NDk5MDI5LThlMTBkYmJhZGIzNDE0NDI1NTI4ZTY4ZGNmZWQ0MmUyNWI3MTRjMTc5NDAwZTkwZWVkMTk3NDRhZDkzYTYzMTc)
 
 You can follow unStack on Twitter for more updates: [@unstack_](https://twitter.com/unstack_) or visit our website at [unstack.dev](http://unstack.dev)
 
@@ -182,7 +183,7 @@ Did I hear you ask: “When is the next unStack event?”
 
 There is another unStack event in the works and this one… shssss… 
 
-Word on the street has it that it will so be lit than the last one because it is… Okay! Enough said! Do kindly set up your **Slack** & **Twitter** notifications so you do not get left out! Hope to see you soon!
+Word on the street has it that it will be more lit than the last one because it is… Okay! Enough said! Do kindly set up your **Slack** & **Twitter** notifications so you do not get left out! Hope to see you soon!
 
 Watch a two minute clip review of the unStack conference 2019: [Video](https://www.youtube.com/watch?v=W2NrNsYFps4&t) 
 
