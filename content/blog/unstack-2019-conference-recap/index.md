@@ -182,6 +182,12 @@ There is another unStack event in the works and this one… shssss…
 
 Word on the street has it that it will so be lit than the last one because it is… Okay! Enough said! Do kindly set up your **Slack** & **Twitter** notifications so you do not get left out! Hope to see you soon!
 
+Watch a two minute clip of the unStack conference 
+
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/watch?v=W2NrNsYFps4&t" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 Cheers! 🍷 <br>
 
 Thanks for coming to unStack Conference 2019 and see you at the next meetup. 🔥🔥🔥🚀
