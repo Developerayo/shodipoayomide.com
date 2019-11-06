@@ -4,7 +4,7 @@ date: "2019-11-06"
 description: Curious about how to safeguard your blog content in your ReactJS app using CSS? You are about to find out!
 ---
 
-<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1573003584/Safeguard_your_blog_content_in_Reactjs_and_CSS.png" width="450px"></p>
+<p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1573003584/Safeguard_your_blog_content_in_Reactjs_and_CSS.png"></p>
 
 Most of us have been there: experiencing the point where the content of your article on your blog get's to be copied and reused by someone else on their own blog tagged to their name and zero credit to the writer/owner, the word for this is `PLAGIARISM`, now with the help of a simple css element and small bits of react, you can fix that.
 
@@ -18,12 +18,12 @@ Continue reading thread [here](https://twitter.com/unicodeveloper/status/1143535
 ```
 Table of Contents
 
-# Prerequisites
-# Installing create-react-app
-# CodeSandbox
-# Setting up
-# Deploy it to Zeit Now
-# Conclusion
+- Prerequisites
+- Installing create-react-app
+- CodeSandbox
+- Setting up
+- Deploy it to Zeit Now
+- Conclusion
 ```
 
 ## Prerequisites
@@ -63,7 +63,7 @@ Once created, you will get a demo app in ReactJS.
 
 Next up, we will setup our ReactJS app with some `HTML` tags.
 
-```js {4}{numberLines: true}
+```js
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -93,7 +93,7 @@ In the code above you can see the simple output in the GIF below, and you can se
 
 Next, let's write some CSS
 
-```css {numberLines: true}
+```css
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -114,7 +114,7 @@ h3 {
 
 In my `index.js` file I posted earlier I created three tags under the app function which are ` <h1>, <h2> <h3> & <h4>`
 
-```html {numberLines: true}
+```html
 <h1>Hello Developer 🔥🔥🔥🔥</h1>
 <h2>Start editing to see some magic happen!😄🔥</h2>
 <h3>Hehehe! sorry, you can't 😅😎🔥🔥</h3>
@@ -123,7 +123,7 @@ In my `index.js` file I posted earlier I created three tags under the app functi
 
 Which are under a function name `app` and `className` set as App, ref as `.App` in css
 
-```js {numberLines: true}
+```js
 function App() {
    return (
      <div className="App">
@@ -140,7 +140,7 @@ The `user-select` element with the attribute as `none` which was called for in o
 
 First, we need to create a `now.json` file in our main directory, once done add the code below in it.
 
-```json {numberLines: true}
+```json
 {
   "version": 2,
   "name": "Safeguard Content",
@@ -157,7 +157,7 @@ It is a best practice to always alias your domain to a particular one so you do 
 
 For builds, we declared a `now-build` script in our `package.json` file under `scripts` to build our react app on the new server.
 
-```json {numberLines: true}
+```json
  "scripts": {
     ...
     "now-build": "react-scripts build"
