@@ -15,9 +15,9 @@ Here is a tweet (#thread) from <b>Prosper Otemuyiwa</b> about his plagiarism exp
 Continue reading thread [here](https://twitter.com/unicodeveloper/status/1143535311303000064)
 
 <br>
+
 ```
 Table of Contents
-
 - Prerequisites
 - Installing create-react-app
 - CodeSandbox
@@ -30,14 +30,14 @@ Table of Contents
 
 Most of us have been there: experiencing the point where the content of your article on your blog gets to be copied and reused by someone else on their blog tagged to their name and zero credit to the writer/owner, the word for this is `PLAGIARISM`, now with the help of a simple CSS element and small bits of react, you can fix that.
 
-To create a new React project you'll need
+##### To create a new React project you'll need
 - [NodeJS](https://nodejs.org/en/) and [NPM CLI](https://docs.npmjs.com/) 
 - [Visual Studio Code "VSCode"](https://code.visualstudio.com/download) or your preffered code-editor
 
-So as to enable pushing your code to GitHub you'll need
+##### So as to enable pushing your code to GitHub you'll need
 - [GIT](https://git-scm.com/downloads)
 
-For deployment, you'll have to install
+##### For deployment, you'll have to install
 
 - [ZEIT NOW](https://zeit.co/docs/now-cli/)
 
