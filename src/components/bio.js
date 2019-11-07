@@ -23,9 +23,9 @@ function Bio() {
               style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(3),
-            height: rhythm(3),
-            borderRadius: '20%',
+            width: rhythm(2.3),
+            height: rhythm(2.3),
+            borderRadius: '30%',
 
               }}
               imgStyle={{
@@ -33,7 +33,8 @@ function Bio() {
               }}
             />
             <p style={{ maxWidth: 310 }}>
-              Articles on Software Engineering by <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer"> Developerayo.</a> (Developer Advocate & Engineer at VanHack).
+              Personal blog by <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer"> Developerayo</a>.<br/>
+              Sr. Developer Advocate & Engineer.
               {` `}
             </p>
           </div>
