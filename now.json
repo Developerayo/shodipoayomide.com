@@ -16,7 +16,7 @@
     },
     {
       "src": "^/(.*).(css|js)",
-      "headers": { "cache-control": "public,max-age=31536000,immutable" }
+       "headers": { "cache-control": "public,max-age=31536000,immutable" }
     },
     {
       "src": "^/(.*).html",
