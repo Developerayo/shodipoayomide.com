@@ -1,7 +1,7 @@
 ---
 title: Safeguard your blog content in Reactjs and CSS
 date: "2019-11-06"
-description: Curious about how to safeguard your blog content in your ReactJS app using CSS? You are about to find out!
+description: .......Curious about how to safeguard your blog content in your ReactJS app using CSS? You are about to find out!
 ---
 
 <p align="center"><img src="https://res.cloudinary.com/developerayo/image/upload/v1573003584/Safeguard_your_blog_content_in_Reactjs_and_CSS.png"></p>
