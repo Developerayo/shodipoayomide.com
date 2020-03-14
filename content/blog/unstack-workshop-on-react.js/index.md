@@ -1,7 +1,7 @@
 ---
 title: unStack Workshop on React.js to Kick Off Soon in Lagos
 date: "2020-03-15"
-description: Free unStack Workshop on React.js Coming Up in Lagos on March 20-21, learn about the tracks, agenda, and speakers at the free unStack Workshop to be held in Lagos on March 20-21.
+description: Free unStack Workshop on React.js Coming Up in Lagos on March 20-21 2020, learn about the tracks, agenda, and speakers at the free unStack Workshop to be held in Lagos on March 20-21 2020.
 ---
 
 ![unStack 2-days shodipo ayomide](https://res.cloudinary.com/developerayo/image/upload/q_auto:best,f_auto,fl_progressive/v1582057020/unstack_2-day_workshop_poster_shodipo_ayomide.jpg)
