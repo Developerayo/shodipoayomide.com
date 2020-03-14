@@ -1,5 +1,5 @@
 ---
-title: Career in Software Engineering
+title: unStack Workshop on React.js to Kick Off Soon in Lagos
 date: "2017-12-12"
 description: Free unStack Workshop on React.js Coming Up in Lagos on March 20-21, learn about the tracks, agenda, and speakers at the free unStack Workshop to be held in Lagos on March 20-21.
 ---
