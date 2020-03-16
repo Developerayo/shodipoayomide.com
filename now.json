@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "shodipoayomide.com",
+  "name": "Shodipo Ayomide",
   "alias": "shodipoayomide.com",
   "builds": [
     {
@@ -12,15 +12,15 @@
   "routes": [
     {
       "src": "^/public/static/(.*)",
-      "headers": { "cache-control": "public,max-age=0, must-revalidate" }
+      "headers": { "cache-control": "public,max-age=0, no-cache" }
     },
     {
       "src": "^/(.*).(css|js)",
-       "headers": { "cache-control": "public,max-age=0, must-revalidate" }
+       "headers": { "cache-control": "public,max-age=0, no-cache" }
     },
     {
       "src": "^/(.*).html",
-      "headers": { "cache-control": "public,max-age=0, must-revalidate" }
+      "headers": { "cache-control": "public,max-age=0, no-cache" }
     }
   ]
 }
