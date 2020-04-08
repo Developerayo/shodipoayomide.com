@@ -19,11 +19,11 @@ module.exports = {
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/developerayo`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/in/shodipo-ayomide`,
       },
       {
         name: `dribbble`,
