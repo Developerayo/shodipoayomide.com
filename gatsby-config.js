@@ -26,8 +26,8 @@ module.exports = {
         url: `https://www.linkedin.com/in/shodipo-ayomide`,
       },
       {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `devto`,
+        url: `https://dev.to/developerayo`,
       },
     ],
   },
