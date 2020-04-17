@@ -1,14 +1,16 @@
 import novelaTheme from '@narative/gatsby-theme-novela/src/gatsby-plugin-theme-ui';
 
+
 export default {
   ...novelaTheme,
-  initialColorMode: `initialColorMode`,
+  initialColorMode: `dark`,
   colors: {
     ...novelaTheme.colors,
-    primary: 'red',
-    secondary: 'red',
-    accent: 'red',
-    grey: 'red',
-    background: 'red',
+    primary: 'black',
+    secondary: '#73737D',
+    accent: 'grey',
+    grey: 'black',
+    background: 'white',
+    gradient: "red",
   },
 };
