@@ -5,8 +5,8 @@ module.exports = {
     siteUrl: `https://shodipoayomide.com`,
     description: `Senior Developer Advocate from Lagos, Nigeria Media Developer Expert at Cloudinary and Technical Instructor at egghead.io`,
     hero: {
-      heading: `Senior Developer Advocate from Lagos, Nigeria Media Developer Expert at Cloudinary and Technical Instructor at egghead.io`,
-      maxWidth: 1500,
+      heading: ``,
+      maxWidth: 700,
     },
     social: [
       {
