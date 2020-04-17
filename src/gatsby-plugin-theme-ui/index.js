@@ -11,6 +11,6 @@ export default {
     accent: 'grey',
     grey: 'black',
     background: 'white',
-    gradient: "red",
+    gradient: "linear-gradient(180deg, rgba(325, 426, 326, 0) 0%, lightgrey 100%)",
   },
 };
