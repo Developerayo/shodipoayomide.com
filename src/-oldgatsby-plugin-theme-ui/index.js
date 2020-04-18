@@ -3,9 +3,8 @@ import novelaTheme from '@narative/gatsby-theme-novela/src/gatsby-plugin-theme-u
 
 export default {
   ...novelaTheme,
-  initialColorMode: `initialColorMode`,
+  initialColorMode: `dark`,
   colors: {
-    ...novelaTheme.colors,
     primary: 'black',
     secondary: '#73737D',
     accent: 'grey',
@@ -20,6 +19,8 @@ export default {
     errorBackground: "rgba(238, 86, 91, 0.1)",
     horizontalRule: "rgba(255, 255, 255, 0.15)",
     inputBackground: "rgba(255, 255, 255, 0.07)",
+    font: "serif", 
+
     modes: {
       dark: {
         grey: "white",
@@ -39,6 +40,7 @@ export default {
         errorBackground: "rgba(238, 86, 91, 0.1)",
         horizontalRule: "rgba(255, 255, 255, 0.15)",
         inputBackground: "rgba(255, 255, 255, 0.07)",
+        font: "serif", 
       },
     },
   },
