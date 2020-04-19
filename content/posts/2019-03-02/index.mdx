@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: Deploying Apps to GitHub using TortoiseGIT
 author: Shodipo Ayomide
 date: 2019-03-02
@@ -6,9 +6,7 @@ hero: ./images/totoisegit.png
 excerpt: TortoiseGit is a Git code control client, which is based on TortoiseSVN. It is an open source software under GNU license.
 ---
 
-<p align="center">
-<img width="300" height="200" src="https://res.cloudinary.com/developerayo/image/upload/v1551556961/totoise_git.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551556961/totoise_git.png)
 
 TortoiseGit is a Git code control client, which is based on TortoiseSVN. It is an [open source](https://github.com/TortoiseGit/TortoiseGit) software under GNU license.
 
@@ -25,113 +23,91 @@ TortoiseGit is a Git code control client, which is based on TortoiseSVN. It is a
 * Go to [github.com](http://github.com) and login
 * Create a new Repository.
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557114/1.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557114/1.png)
 
 * Create a remote Github repo and name it.
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557111/2.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557111/2.png)
 
-<small style="color: lightgrey;">Mine has already been created so i will work with that, Just put in the name that’s all. Then click OK.</small>
+
+> Mine has already been created so i will work with that, Just put in the name that’s all. Then click OK.
 
 Copy the line containing your project link : https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557113/3.png">
-</p>
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557113/3.png)
 
 ## Now lets head over to the TortoiseGit we installed earlier.
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557111/4.png">
-</p>
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557111/4.png)
 
 Once you have got that all opened, click on generate then move the mouse all around the box to make it go faster
 
 After clicking on generate, you will have a box like this below
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557112/5.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557112/5.png)
 
 THE LOOKS SOMETHING LIKE THIS BELOW
 
-> ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAq0jmbEdOeDHZBcD8o8FvUv1lCUBJJmM0DpHz+nn7SzT4CT2PHcOBken+9L2Zz9D7bopmx033DX3/kp/84m3Ea1n/bVDEDfWve2hH6MGcaMM3KVBhMB+6j9LVludG8zYAIt+vrDI/F9f2pZv27h9DznOT+0PJg4cpOkRSFJTgI3tY4cNTWr5kTZdBONEMI+QGNtpWwr774S
+>ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQE8o8FvUv1lCUBJe2hH6MG
 
 Once you have this, save it in a secure file.
 
 Do not forget you copied the link from GITHUB that has your project repository link, now lets put that in use:
 
-<mark style="background-color: #9a69c2; color: #fff;">https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git</mark>
+`https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git`
 
 Create a folder on desktop and name it. Mine is named Code, then create a file in the folder, Mine is named myproject. Create a text file named hi.txt and put some text in it.
 
 lets move on to putting the github link to use
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557113/6.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557113/6.png)
 
-<small style="color: lightgrey;">Now you see the hi.txt file we created, in the message box put in initial commit then click ok
-</small>
+> Now you see the hi.txt file we created, in the message box put in initial commit then click ok.
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557111/7.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557111/7.png)
 
 Now lets go back to that created Repo on GITHUB
 
 Remember the link you copied from github
 
-<mark style="background-color: #9a69c2; color: #fff;">https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git</mark>
+> https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git
 
 let us make use of that.
 
 Right click on the folder you created mine is named ‘myproject’, then click on tortoisegit, followed by the push selection at the top of the list.
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557114/8.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557114/8.png)
 
 ## How to setup the PUSH dialog with Github
 
 * click on the manage button it would pop up another dialog box like that below
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557115/9.png">
-</p>
-<small style="color: lightgrey;">Fill in the dialog</small>
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557115/9.png)
+
+> Fill in the dialog
 
 * Remote: Origin
 * URL: your github url you copied earlier mine is https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git\
 * The the ssh or putty key you saved earlier, you would have to add that file here from were you saved it
 * CLICK ADD NEW
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557113/10.png">
-</p>
-<small style="color: lightgrey;">Just click ok</small>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557113/10.png)
+> Just click ok
 
 It the starts pushing it to your already created GitHub Repo
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557114/11.png">
-</p>
-<small style="color: lightgrey;">You would have to wait a few seconds "Go grab a coffee"</small>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557114/11.png)
+> You would have to wait a few seconds "Go grab a coffee"
 
 Lastly visit your repo on GitHub
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557115/12.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557115/12.png)
 
 Hurray 🎉🎉 you just deployed your first file to GitHub using TortoiseGIT
 
-<p align="center">
-<img src="https://res.cloudinary.com/developerayo/image/upload/v1551557115/13.png">
-</p>
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557115/13.png)
 
-Thanks for reading! 🔥🚀 </br> -->
+Thanks for reading! 🔥🚀
