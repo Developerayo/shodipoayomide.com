@@ -1,0 +1,162 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>
+<![CDATA[ Senior Developer Advocate ]]>
+</title>
+<description>
+<![CDATA[
+Senior Developer Advocate from Lagos, Nigeria Media Developer Expert at Cloudinary and Technical Instructor at egghead.io
+]]>
+</description>
+<link>https://shodipoayomide.com</link>
+<image>
+<url>
+https://shodipoayomide.com/icons/icon-48x48.png?v=a08e8bc65485512f1b83265e309c0744
+</url>
+<title>Senior Developer Advocate</title>
+<link>https://shodipoayomide.com</link>
+</image>
+<generator>https://rss.app</generator>
+<lastBuildDate>Mon, 20 Apr 2020 12:31:34 GMT</lastBuildDate>
+<atom:link href="https://rss.app/feeds/wI1riXJuxlvQ9bCJ.xml" rel="self" type="application/rss+xml"/>
+<language>
+<![CDATA[ en ]]>
+</language>
+<item>
+<title>
+<![CDATA[
+unStack Workshop on React.js to Kick Off Soon in Lagos
+]]>
+</title>
+<description>
+<![CDATA[
+<div><img src="https://shodipoayomide.com/static/d03d3726872c5db4806635d2fdadedcb/0ff54/unstack_2-day_workshop_poster_shodipo_ayomide.jpg" style="width: 100%;"><div>Free unStack Workshop on React.js Coming Up in Lagos on March 20-21 2020, learn about the tracks, agenda, and speakers at the free unStack Workshop to be held in Lagos on March 20-21 2020.</div></div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/unstack-workshop-on-react.js-to-kick-off-soon-in-lagos/
+</link>
+<guid isPermaLink="false">c10a6cd0fd9ff9373b3618d483c29362</guid>
+<dc:creator>
+<![CDATA[ shodipoayomide.com ]]>
+</dc:creator>
+<pubDate>Sun, 15 Mar 2020 00:00:00 GMT</pubDate>
+<media:content medium="image" url="https://shodipoayomide.com/static/d03d3726872c5db4806635d2fdadedcb/0ff54/unstack_2-day_workshop_poster_shodipo_ayomide.jpg"/>
+</item>
+<item>
+<title>
+<![CDATA[ Safeguard your blog content in Reactjs and CSS ]]>
+</title>
+<description>
+<![CDATA[
+<div><img src="https://shodipoayomide.com/static/aff6960ba63e9c10171fba5ab5572570/a45dc/Safeguard_your_blog_content_in_Reactjs_and_CSS.png" style="width: 100%;"><div>Curious about how to safeguard your blog content in your ReactJS app using CSS? You are about to find out!</div></div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/safeguard-your-blog-content-in-reactjs-and-css/
+</link>
+<guid isPermaLink="false">8aaeacca75b426a1cf62e39b9587f745</guid>
+<dc:creator>
+<![CDATA[ shodipoayomide.com ]]>
+</dc:creator>
+<pubDate>Tue, 07 May 2019 00:00:00 GMT</pubDate>
+<media:content medium="image" url="https://shodipoayomide.com/static/aff6960ba63e9c10171fba5ab5572570/a45dc/Safeguard_your_blog_content_in_Reactjs_and_CSS.png"/>
+</item>
+<item>
+<title>
+<![CDATA[
+unStack 2019 event recap; All the announcements that matter
+]]>
+</title>
+<description>
+<![CDATA[
+<div><img src="https://shodipoayomide.com/static/03d7fefdc112dd6a99cc8afbd739f7cf/0ff54/unstack.jpg" style="width: 100%;"><div>unStack is a hands-on workshop community, tailored towards building great technical talents with a hands-on learning approach, learning about new technologies/tools and mastering patterns to navigate already existing ones.</div></div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/unstack-2019-event-recap-all-the-announcements-that-matter/
+</link>
+<guid isPermaLink="false">f9a7d0d99486bec910ae479ec8ee9794</guid>
+<dc:creator>
+<![CDATA[ shodipoayomide.com ]]>
+</dc:creator>
+<pubDate>Tue, 07 May 2019 00:00:00 GMT</pubDate>
+<media:content medium="image" url="https://shodipoayomide.com/static/03d7fefdc112dd6a99cc8afbd739f7cf/0ff54/unstack.jpg"/>
+</item>
+<item>
+<title>
+<![CDATA[ Getting started with Raspberry Pi 3 ]]>
+</title>
+<description>
+<![CDATA[
+<div><img src="https://shodipoayomide.com/static/c321876847c214e55ea564bddb0dacd7/bb0f9/pi.png" style="width: 100%;"><div>Raspberry Pi 3 is a small computer the size of an ATM card which was built by the Raspberry Pi foundation and has the ability to connect with external devices and networks via wireless LAN and Bluetooth connectivity.</div></div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/getting-started-with-raspberry-pi-3/
+</link>
+<guid isPermaLink="false">7f7480c843dacafe0f0d33f93b4d2ea3</guid>
+<dc:creator>
+<![CDATA[ shodipoayomide.com ]]>
+</dc:creator>
+<pubDate>Tue, 07 May 2019 00:00:00 GMT</pubDate>
+<media:content medium="image" url="https://shodipoayomide.com/static/c321876847c214e55ea564bddb0dacd7/bb0f9/pi.png"/>
+</item>
+<item>
+<title>
+<![CDATA[ Deploying Apps to GitHub using TortoiseGIT ]]>
+</title>
+<description>
+<![CDATA[
+<div>CodeSandbox and Netlify are like a passenger and an Uber driver, the passenger enters into the car and the uber driver starts the car and keeps on moving, CodeSandbox started with a super amazing idea by Ives van Hoorne the Creator of CodeSandbox and now works fulltime developing it.</div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/Deploying-Apps-to-GitHub-using-TortoiseGIT
+</link>
+<guid isPermaLink="false">d3e47e57f90111d2c856f621188df42b</guid>
+<dc:creator>
+<![CDATA[ Shodipo Ayomide ]]>
+</dc:creator>
+<pubDate>Sat, 02 Mar 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>
+<![CDATA[ Career in Software Engineering ]]>
+</title>
+<description>
+<![CDATA[
+<div><img src="https://shodipoayomide.com/static/40b559114d8b7b7303cba94056168bb7/2f1b1/career.jpg" style="width: 100%;"><div>Software Engineers write software. They write the instructions that tell the computer what to do.</div></div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/career-in-software-engineering/
+</link>
+<guid isPermaLink="false">2512294402e9df77abf18ab16ba9f3d7</guid>
+<dc:creator>
+<![CDATA[ shodipoayomide.com ]]>
+</dc:creator>
+<pubDate>Tue, 12 Dec 2017 00:00:00 GMT</pubDate>
+<media:content medium="image" url="https://shodipoayomide.com/static/40b559114d8b7b7303cba94056168bb7/2f1b1/career.jpg"/>
+</item>
+<item>
+<title>
+<![CDATA[ Understanding the concept behind AIML ]]>
+</title>
+<description>
+<![CDATA[
+<div><img src="https://shodipoayomide.com/static/8c9aadfe832ea09fa9ecbd64933520a6/bc8e0/aiml.png" style="width: 100%;"><div>AIML or Artificial Intelligence Markup Language is an XML base language used for creating chatbots(AI), it is always saved with the extension `.aiml`.</div></div>
+]]>
+</description>
+<link>
+https://shodipoayomide.com/understanding-the-concept-behind-aiml/
+</link>
+<guid isPermaLink="false">276185c0d0b6b80e8516fc40e0e54c09</guid>
+<dc:creator>
+<![CDATA[ shodipoayomide.com ]]>
+</dc:creator>
+<pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
+<media:content medium="image" url="https://shodipoayomide.com/static/8c9aadfe832ea09fa9ecbd64933520a6/bc8e0/aiml.png"/>
+</item>
+</channel>
+</rss>
