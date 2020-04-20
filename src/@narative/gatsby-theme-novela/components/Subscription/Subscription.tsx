@@ -178,16 +178,16 @@ const Button = styled.button<{ hasError: string; subscribed: boolean }>`
   width: 161px;
   height: 38px;
   border: 1px solid
-    white;
+  #7692FF;
   color: white;
-  background: ${p => (p.subscribed ? p.theme.colors.accent : "transparent")};
+  background: #7692FF;
   font-weight: 600;
   border-radius: 5px;
   letter-spacing: 0.42px;
   transition: border-color 0.2s var(--ease-in-out-quad),
     background 0.2s var(--ease-in-out-quad), color 0.2s var(--ease-in-out-quad);
   &:hover {
-    background: green;
+    background: #B8E0D2;
     color: white;
   }
   &[disabled] {
