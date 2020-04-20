@@ -39,12 +39,19 @@ module.exports = {
         contentAuthors: "content/authors",
         basePath: "/",
         authorsPage: true,
+        mailchimp: true,
         sources: {
           local: true,
           // contentful: true,
         },
       },
     },
+      {
+        resolve: "gatsby-plugin-mailchimp",
+        options: {
+          endpoint: "https://shodipoayomide.us18.list-manage.com/subscribe/post?u=0b8d2ee1cb63c6f51cc1d8b9d&amp;id=7fe993900c", // mailchimp endpoint
+        },
+      },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

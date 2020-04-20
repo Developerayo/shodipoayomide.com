@@ -43,16 +43,11 @@ const Subscription: React.FC<{}> = () => {
       <SubscriptionContainer>
         <Content>
           <Heading>
-            Join our email list and get notified about new content
+          Join the Newsletter
           </Heading>
-          <Text>
-            Be the first to receive our latest content with the ability to
-            opt-out at anytime. We promise to not spam your inbox or share your
-            email with any third parties.
-          </Text>
           <Form onSubmit={handleSubmit} hasError={error}>
             <Input
-              placeholder="your@email.com"
+              placeholder=""
               name="email"
               type="email"
               value={email}
@@ -83,15 +78,13 @@ const SubscriptionContainer = styled.div`
   flex-direction: column;
   padding: 64px 0 55px;
   margin: 10px auto 100px;
-  background: ${p => p.theme.colors.card};
+  background: linear-gradient(-213deg, rgb(94, 49, 220) 0%, rgb(49, 85, 220) 100%), linear-gradient(32deg, rgba(255, 255, 255, 0.25) 33%, rgba(0, 0, 0, 0.25) 100%) rgb(35, 28, 66);;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
   z-index: 1;
-
   ${mediaqueries.tablet`
     padding: 50px 0 0;
     text-align: center;
   `}
-
   ${mediaqueries.phablet`
     margin: -20px auto 80px;
   `}
@@ -101,13 +94,11 @@ const Content = styled.div`
   margin: 0 auto;
   width: 100%;
   max-width: 640px;
-
   ${mediaqueries.tablet`
     h3 {
       padding: 0 50px;
     }
   `}
-
   ${mediaqueries.phone`
     h3 {
       padding: 0 24px;
@@ -117,7 +108,7 @@ const Content = styled.div`
 
 const Heading = styled(Headings.h3)`
   margin-bottom: 20px;
-
+  color:white !important;
   ${mediaqueries.tablet`
     margin-bottom: 15px;
   `}
@@ -127,7 +118,6 @@ const Text = styled.p`
   margin: 0 auto 30px;
   color: ${p => p.theme.colors.grey};
   line-height: 1.75;
-
   ${mediaqueries.tablet`
     padding: 0 26px;
     margin: 0 auto 25px;
@@ -136,14 +126,12 @@ const Text = styled.p`
 
 const Form = styled.form<{ hasError: string }>`
   position: relative;
-
   &::after {
-    content: ">";
+    content: ":";
     position: absolute;
     left: 21px;
     top: 10px;
     color: ${p => (p.hasError ? p.theme.colors.error : p.theme.colors.accent)};
-
     ${mediaqueries.tablet`
     left: 34px;
     top: 11px;
@@ -157,25 +145,21 @@ const Input = styled.input<{ hasError: string }>`
     p.hasError
       ? p.theme.colors.errorBackground
       : p.theme.colors.inputBackground};
-  border-radius: 35px;
+  border-radius: 5px;
   border: none;
   padding: 13px 21px 13px 35px;
   width: 471px;
   color: ${p => p.theme.colors.primary};
-
   ::placeholder {
     color: ${p => p.theme.colors.track};
     opacity: 1;
   }
-
   :-ms-input-placeholder {
     color: ${p => p.theme.colors.track};
   }
-
   ::-ms-input-placeholder {
     color: ${p => p.theme.colors.track};
   }
-
   ${mediaqueries.tablet`
     width: calc(100% - 36px);
     margin: 0 18px;
@@ -194,29 +178,24 @@ const Button = styled.button<{ hasError: string; subscribed: boolean }>`
   width: 161px;
   height: 38px;
   border: 1px solid
-    ${p => (p.hasError ? p.theme.colors.error : p.theme.colors.accent)};
-  color: ${p => (p.hasError ? p.theme.colors.error : p.theme.colors.accent)};
+    white;
+  color: white;
   background: ${p => (p.subscribed ? p.theme.colors.accent : "transparent")};
   font-weight: 600;
-  border-radius: 35px;
+  border-radius: 5px;
   letter-spacing: 0.42px;
   transition: border-color 0.2s var(--ease-in-out-quad),
     background 0.2s var(--ease-in-out-quad), color 0.2s var(--ease-in-out-quad);
-
   &:hover {
-    background: ${p =>
-      p.hasError ? p.theme.colors.error : p.theme.colors.accent};
-    color: ${p => p.theme.colors.background};
+    background: green;
+    color: white;
   }
-
   &[disabled] {
     cursor: not-allowed;
   }
-
   svg * {
     fill: ${p => p.theme.colors.background};
   }
-
   ${p => mediaqueries.tablet`
     position: relative;
     height: 60px;
@@ -226,7 +205,6 @@ const Button = styled.button<{ hasError: string; subscribed: boolean }>`
     border: none;
     border-radius: 0;
     border-top: 1px solid ${p.theme.colors.horizontalRule};
-
     &:hover {
       color: initial;
       background: initial;
@@ -240,12 +218,10 @@ const Error = styled.div`
   bottom: -20px;
   color: ${p => p.theme.colors.error};
   font-size: 12px;
-
   a {
     color: ${p => p.theme.colors.error};
     text-decoration: underline;
   }
-
   ${mediaqueries.tablet`
     left: 50px;
     top: 50px;
