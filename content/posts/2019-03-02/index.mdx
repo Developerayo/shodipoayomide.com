@@ -1,0 +1,113 @@
+---
+title: Deploying Apps to GitHub using TortoiseGIT
+author: Shodipo Ayomide
+date: 2019-03-02
+hero: ./images/totoisegit.png
+excerpt: TortoiseGit is a Git code control client, which is based on TortoiseSVN. It is an open source software under GNU license.
+---
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551556961/totoise_git.png)
+
+TortoiseGit is a Git code control client, which is based on TortoiseSVN. It is an [open source](https://github.com/TortoiseGit/TortoiseGit) software under GNU license.
+
+## Benefits of using Tortoisegit
+
+* Tortoisegit makes it easier to clone a repository
+* Tortoisegit makes it easier to upload your code from your laptop to your repository online easily with a single command line.
+* Extremely easy to pull from your online repository to update your local if you are working on a collaboration project with the click of a button.
+* This tool makes it easy to remove all un-tracked files from your local with the click of a button.
+* And a lot more that can be found on the link below:
+
+## How To connect TortoiseGit with Github
+
+* Go to [github.com](http://github.com) and login
+* Create a new Repository.
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557114/1.png)
+
+* Create a remote Github repo and name it.
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557111/2.png)
+
+
+> Mine has already been created so i will work with that, Just put in the name that’s all. Then click OK.
+
+Copy the line containing your project link : https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git
+
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557113/3.png)
+
+## Now lets head over to the TortoiseGit we installed earlier.
+
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557111/4.png)
+
+Once you have got that all opened, click on generate then move the mouse all around the box to make it go faster
+
+After clicking on generate, you will have a box like this below
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557112/5.png)
+
+THE LOOKS SOMETHING LIKE THIS BELOW
+
+>ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQE8o8FvUv1lCUBJe2hH6MG
+
+Once you have this, save it in a secure file.
+
+Do not forget you copied the link from GITHUB that has your project repository link, now lets put that in use:
+
+`https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git`
+
+Create a folder on desktop and name it. Mine is named Code, then create a file in the folder, Mine is named myproject. Create a text file named hi.txt and put some text in it.
+
+lets move on to putting the github link to use
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557113/6.png)
+
+> Now you see the hi.txt file we created, in the message box put in initial commit then click ok.
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557111/7.png)
+
+Now lets go back to that created Repo on GITHUB
+
+Remember the link you copied from github
+
+> https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git
+
+let us make use of that.
+
+Right click on the folder you created mine is named ‘myproject’, then click on tortoisegit, followed by the push selection at the top of the list.
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557114/8.png)
+
+## How to setup the PUSH dialog with Github
+
+* click on the manage button it would pop up another dialog box like that below
+
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557115/9.png)
+
+> Fill in the dialog
+
+* Remote: Origin
+* URL: your github url you copied earlier mine is https://github.com/Developerayo/My-Project-testing-tortiseGIT-.git\
+* The the ssh or putty key you saved earlier, you would have to add that file here from were you saved it
+* CLICK ADD NEW
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557113/10.png)
+> Just click ok
+
+It the starts pushing it to your already created GitHub Repo
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557114/11.png)
+> You would have to wait a few seconds "Go grab a coffee"
+
+Lastly visit your repo on GitHub
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557115/12.png)
+
+Hurray 🎉🎉 you just deployed your first file to GitHub using TortoiseGIT
+
+![Image](https://res.cloudinary.com/developerayo/image/upload/v1551557115/13.png)
+
+Thanks for reading! 🔥🚀
