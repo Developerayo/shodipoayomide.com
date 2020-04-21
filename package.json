@@ -18,7 +18,7 @@
     "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.1.40",
-    "netlify-cms-app": "^2.11.23",
+    "netlify-cms-app": "^2.12.11",
     "netlify-cms-proxy-server": "^1.1.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
