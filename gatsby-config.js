@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Senior Developer Advocate`,
+    title: `Senior Developer Advocate at Fleek`,
     name: `Shodipo Ayomide`,
     siteUrl: `https://shodipoayomide.com`,
-    description: `Senior Developer Advocate from Lagos, Nigeria Media Developer Expert at Cloudinary and Technical Instructor at egghead.io`,
+    description: `Senior Developer Advocate at Fleek Media Developer Expert at Cloudinary and Technical Instructor at egghead.io`,
     hero: {
       heading: ``,
       maxWidth: 700,
@@ -11,7 +11,7 @@ module.exports = {
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/developerayo_`,
+        url: `https://twitter.com/developerayo`,
       },
       {
         name: `github`,
