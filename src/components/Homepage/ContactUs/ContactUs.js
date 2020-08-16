@@ -68,6 +68,106 @@ const _contactUs = props => {
       });
   };
 
-
+  return (
+    <Fragment>
+      <section
+        id="contactUs"
+        className="container-fluid contact-us section-spacing"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-lg-5 projects-text-col pr-1">
+              <div className="title">
+                <p>Contact Us</p>
+              </div>
+              <h5 className="heading">
+                Got a project?
+                <br /> Let's talk.
+              </h5>
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+              </p>
+              <div>shodipovi@gmail.com</div>
+            </div>
+            <div className="col-12 col-lg-7 contact-us-form-col position-relative">
+              <form className="contact-us-form" onSubmit={sendMail}>
+                <input
+                  className="input-field"
+                  type="text"
+                  placeholder="Full Name"
+                  name="name"
+                  value={name}
+                  onChange={e => setName(e.target.value)}
+                />
+                <input
+                  className="input-field"
+                  type="text"
+                  placeholder="Email"
+                  name="email"
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                />
+                <input
+                  className="input-field"
+                  type="text"
+                  placeholder="Subject"
+                  name="subject"
+                  value={subject}
+                  onChange={e => setSubject(e.target.value)}
+                />
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  className="message-text"
+                  value={message}
+                  onChange={e => setMessage(e.target.value)}
+                >
+                  Message
+                </textarea>
+                <button
+                  type="submit"
+                  className="send-message"
+                  disabled={sending}
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section-spacing container-fluid click-to-view-resume">
+        <div className="row ">
+          <div className="col-12 text-center">
+            <p className="heading">Click to view my Resume!</p>
+            <Link to={routes.resume}>
+              <button className="primary-btn">
+                Resume
+                <img
+                  src={arrow}
+                  className="mr-0"
+                  style={{ marginLeft: "7px", height: "10px" }}
+                  alt="arrow"
+                />
+              </button>
+            </Link>
+          </div>
+        </div>
+      </section>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+    </Fragment>
+  );
 };
 export default _contactUs;
