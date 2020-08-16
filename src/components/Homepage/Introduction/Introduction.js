@@ -33,7 +33,31 @@ const Introduction = props => (
           />
           <button className="primary-btn">Learn More</button>
         </div>
-
+        <img src={zigzag} className="zigzag d-none d-lg-block" alt="zig-zag" />
+      </div>
+      <div className="col-12 col-lg-6">
+        <div className="dots">
+          <img className="img-fluid dots-img" src={dots} alt="freelancer" />
+        </div>
+        <div className="freelancer-img-div">
+          <img className="img-fluid" src={freelancer} alt="freelancer" />
+          <img
+            className="brackets d-none d-lg-block"
+            src={brackets}
+            alt="brackets"
+          />
+          <img className="file d-none d-lg-block" src={file} alt="file" />
+        </div>
+        <div>
+          <img className="dashed-box" src={line} alt="line" />
+        </div>
+      </div>
+    </div>
+    <img
+      className="square-dots dots-img d-none d-lg-block"
+      src={dotsSquare}
+      alt="dots-sq"
+    />
   </section>
 );
 export default Introduction;
