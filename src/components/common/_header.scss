@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--background-color);
+  }
+  .nav {
+    min-height: 72px;
+  }
+  .navbar-brand {
+    color: #9828ee;
+    font-family: Poppins;
+    //   font-size: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 10rem;
+  }
+  .collapse,
+  .navbar-collapse {
+    transition: none !important;
+  }
+  .navbar-toggler {
+    border: 0px solid transparent;
+    outline: none !important;
+    div span {
+      height: 2px !important;
+      right: 0 !important;
+    }
+    &.false div span:nth-child(2) {
+      width: 72% !important;
+    }
+    &.false div span:nth-child(3) {
+      width: 30% !important;
+    }
+  }
