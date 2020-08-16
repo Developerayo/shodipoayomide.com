@@ -1,0 +1,16 @@
+.testimonials {
+    //   padding: 40px 60px;
+    .testimonials-heading {
+      position: relative;
+      text-align: center;
+      &::before {
+        content: "";
+        width: 58px;
+        border-bottom: solid 5px #9e68ee;
+        position: absolute;
+        left: 44%;
+        top: 60%;
+        z-index: 1;
+      }
+    }
+  }
