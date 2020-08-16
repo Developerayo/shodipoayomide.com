@@ -28,6 +28,28 @@ const Footer = props => {
     });
   });
 
-  
+  return (
+    <Fragment>
+      <div className="container footer">
+        <div className="row ml-0 mr-0">
+          <div className="col-12 col-lg-6 pl-0 footer-text">
+            &copy; 2020 Shodipo Ayomide
+          </div>
+          <div className="col-12 col-lg-6 pr-0">
+            <ul className="footer-list">
+              {icons.map((icon, i) => (
+                <li key={i}>
+                  <img src={icon} alt={`icon-${i}`} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="back2Top" title="Back to top" href="#">
+        &#10148;
+      </div>
+    </Fragment>
+  );
 };
 export default Footer;
