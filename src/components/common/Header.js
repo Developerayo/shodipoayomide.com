@@ -84,7 +84,7 @@ const Header = props => {
   }, [darkTheme, setDarkTheme]);
   return (
     <div
-      className="container-fluid header sticky-top"
+      className="container-fluid header"
       style={show ? { height: "100vh" } : {}}
       id="header"
     >
@@ -139,7 +139,8 @@ const Header = props => {
             </li>
             <li className="nav-item">
               <Link
-                to={`${routes.homepage}#testimonials`}
+                target="_blank"
+                to={"//https://speaking.shodipoayomide.com"}
                 className="nav-link"
                 aria-disabled="true"
               >
