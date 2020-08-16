@@ -1,0 +1,49 @@
+.intro {
+    position: relative;
+    padding-bottom: 45px;
+    // padding-top: 50px;
+  
+    .square-dots {
+      position: absolute;
+      left: 0;
+      bottom: -50px;
+      max-height: 130px;
+    }
+  }
+  .freelancer-img-div {
+    position: relative;
+    padding: 89px;
+    padding-top: 65px;
+    padding-left: 88px;
+    .brackets {
+      position: absolute;
+      top: 22px;
+      right: 34px;
+      height: 22px;
+    }
+    .file {
+      position: absolute;
+      bottom: 26px;
+      right: 34px;
+      height: 22px;
+    }
+  }
+  .dots {
+    position: absolute;
+    z-index: -1;
+    padding: 26px;
+    padding-top: 0px;
+  }
+  .dots-img {
+    max-height: 155px;
+  }
+  .dashed-box {
+    position: absolute;
+    bottom: 65px;
+    right: 73px;
+    height: 326px;
+    width: 363px;
+    z-index: -1;
+  }
+
+  
