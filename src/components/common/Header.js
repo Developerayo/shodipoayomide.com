@@ -90,7 +90,7 @@ const Header = props => {
     >
       <nav className="container navbar navbar-expand-lg pr-0 pl-0">
         <Link to={`${routes.homepage}#home`} className="navbar-brand">
-          Developerayo
+          Shodipo Ayomide
         </Link>
         <img
           className="d-block d-lg-none themeswitcher-mob"
@@ -140,7 +140,7 @@ const Header = props => {
             <li className="nav-item">
               <Link
                 target="_blank"
-                to={"//https://speaking.shodipoayomide.com"}
+                to={"//speaking.shodipoayomide.com"}
                 className="nav-link"
                 aria-disabled="true"
               >
