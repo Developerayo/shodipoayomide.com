@@ -29,6 +29,39 @@ const MyBlogs = props => {
               <button className="primary-btn">Visit My Blog</button>
             </div>
           </div>
+          <div className="col-12 col-lg-7 position-relative">
+            <ul className="blogs-list">
+              {arr.map((v, i) => (
+                <li key={i}>
+                  <div className="row">
+                    <div className="col-4 col-lg-3 pl-0 column">
+                      May 24 . Blog
+                    </div>
+                    <div className="col-7 col-lg-6 column blog-name">
+                      Let this be a lesson to you
+                    </div>
+                    <div className="col-1 col-lg-1 pr-0 text-right column">
+                      <img src={toRight} alt="" />
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        className="d-none d-lg-block"
+        src={circles}
+        alt="circles"
+        style={{
+          position: "absolute",
+          top: "15%",
+          left: "100px",
+          maxHeight: "70%"
+          // display : "none"
+        }}
+      />
     </section>
   );
 };
