@@ -1,213 +1,212 @@
 .resume {
-    margin-top: 90px;
-    margin-bottom: 30px;
-    // box-shadow: 0 0 1px #000000;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  
-    border: 12px solid var(--resume-main-bg);
-    .middle {
-      padding: 25px 3px;
-      .resume-main {
-        padding: 25px 30px;
-        // background-color: rgba(0, 0, 0, 0.28);
-        background-color: var(--resume-main-bg);
-        .row .resume-col {
-          padding: 10px 30px;
-        }
-      }
-    }
-  }
-  .resume-heading {
-    position: relative;
-    color: var(--main-heading);
-    font-family: Poppins;
-    font-size: 22px;
-    font-weight: 700;
-    &::before {
-      content: "";
-      width: 10%;
-      border-bottom: solid 5px #9e68ee;
-      position: absolute;
-      left: 0px;
-      bottom: -7px;
-      z-index: 1;
-    }
-    &.profile-name {
-      &::before {
-        border-bottom: 0px !important;
-      }
-    }
-  }
-  .work-experience-section {
-    margin-top: 85px;
-  }
-  .experience {
-    padding-right: 100px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.35);
-    margin-bottom: 55px;
-    margin-top: 21px;
-  
-    .experience-title {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 15px;
-      .experience-text {
-        font-size: 16px;
-        font-weight: 400;
-        font-family: Poppins;
-        color: var(--paragraph);
-      }
-      .remote {
-        background-color: #9828ee;
-        // padding: 2px 14px;
-        padding: 2px 9px;
-        border-radius: 4px;
-        // color: var(--main-heading);
-        color: white;
-        // font-size: 12px;
-        font-size: 10px;
-        font-weight: lighter;
-      }
-    }
-    .experience-detail {
-      display: flex;
-      justify-content: space-between;
-      .experience-detail-item {
-        font-size: 12px;
-        img {
-          margin-right: 8px;
-          height: 12px;
-        }
-      }
-    }
-  }
-  .summary {
-    .summary-text {
-      color: var(--paragraph);
-      font-family: Poppins;
-      margin-top: 16px;
-      font-weight: 300;
-      font-size: 14px;
-    }
-  }
-  p,
-  li,
-  div {
-    color: var(--sub-heading);
-  }
-  .resume-list {
-    list-style-type: none;
-    padding-inline-start: 0px;
-    li {
-      margin: 10px 0px;
-      font-size: 13px;
-      img {
-        margin-right: 10px;
-        width: 13px;
-        height: auto;
-      }
-    }
-    &.social-links {
-      position: relative;
-      z-index: 1;
-      a {
-        &:hover {
-          text-decoration: none;
-        }
-        span {
-          color: #6f6d6f;
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-  .social,
-  .education {
-    margin-top: 50px;
-  }
-  .education-item {
-    margin: 25px 0px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.35);
-    padding-bottom: 20px;
-    p {
-      margin-bottom: 10px;
-    }
-    .eduAndSchool {
-      font-size: 13px;
-      img {
-        margin-right: 10px;
-        width: 13px;
-        height: auto;
-      }
-    }
-  }
-  .download {
-    background-color: var(--paragraph);
-    border: none;
-    border-radius: 4px;
-    padding: 3px 4px;
-    margin-right: 10px;
-  }
-  .left-bottom-img {
-    position: absolute;
-    bottom: 0;
-    height: 333px;
-  }
-  @media only screen and (max-width: 991px) {
-    .container {
-      &.resume {
-        border: none;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-        .middle {
-          padding: 6px;
-        }
-      }
-    }
-    .user-personal-info {
-      text-align: center;
-      p {
-        font-weight: 400;
-      }
-    }
-    .profile-image-div {
-      position: relative;
-      img {
-        position: absolute;
-        top: -235px;
-        max-width: 60%;
-        left: 20%;
-      }
-    }
-    .resume {
-      margin-top: 113px;
-    }
+  margin-top: 90px;
+  margin-bottom: 30px;
+  // box-shadow: 0 0 1px #000000;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+
+  border: 12px solid var(--resume-main-bg);
+  .middle {
+    padding: 25px 3px;
     .resume-main {
-      padding: 7px !important;
+      padding: 25px 30px;
+      // background-color: rgba(0, 0, 0, 0.28);
+      background-color: var(--resume-main-bg);
+      .row .resume-col {
+        padding: 10px 30px;
+      }
     }
-    .resume-col {
-      padding: 0px 0px !important;
-      padding-top: 112px !important;
-      border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  }
+}
+.resume-heading {
+  position: relative;
+  color: var(--main-heading);
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  &::before {
+    content: "";
+    width: 10%;
+    border-bottom: solid 5px #9e68ee;
+    position: absolute;
+    left: 0px;
+    bottom: -7px;
+    z-index: 1;
+  }
+  &.profile-name {
+    &::before {
+      border-bottom: 0px !important;
     }
-    .experience {
-      padding-right: 0px;
-    }
+  }
+}
+.work-experience-section {
+  margin-top: 85px;
+}
+.experience {
+  padding-right: 100px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  margin-bottom: 55px;
+  margin-top: 21px;
+
+  .experience-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
     .experience-text {
       font-size: 16px;
+      font-weight: 400;
+      font-family: Poppins;
+      color: var(--paragraph);
     }
     .remote {
-      padding: 2px 5px !important;
-      font-size: 0.75rem !important;
-    }
-    .education-item .eduAndSchool {
-      font-size: 10px !important;
-      padding: 0px;
-    }
-    .work-experience-section {
-      margin-top: 50px;
+      background-color: #9828ee;
+      // padding: 2px 14px;
+      padding: 2px 9px;
+      border-radius: 4px;
+      // color: var(--main-heading);
+      color: white;
+      // font-size: 12px;
+      font-size: 10px;
+      font-weight: lighter;
     }
   }
-  
+  .experience-detail {
+    display: flex;
+    justify-content: space-between;
+    .experience-detail-item {
+      font-size: 12px;
+      img {
+        margin-right: 8px;
+        height: 12px;
+      }
+    }
+  }
+}
+.summary {
+  .summary-text {
+    color: var(--paragraph);
+    font-family: Poppins;
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+p,
+li,
+div {
+  color: var(--sub-heading);
+}
+.resume-list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  li {
+    margin: 10px 0px;
+    font-size: 13px;
+    img {
+      margin-right: 10px;
+      width: 13px;
+      height: auto;
+    }
+  }
+  &.social-links {
+    position: relative;
+    z-index: 1;
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+      span {
+        color: #6f6d6f;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.social,
+.education {
+  margin-top: 50px;
+}
+.education-item {
+  margin: 25px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  padding-bottom: 20px;
+  p {
+    margin-bottom: 10px;
+  }
+  .eduAndSchool {
+    font-size: 13px;
+    img {
+      margin-right: 10px;
+      width: 13px;
+      height: auto;
+    }
+  }
+}
+.download {
+  background-color: var(--paragraph);
+  border: none;
+  border-radius: 4px;
+  padding: 3px 4px;
+  margin-right: 10px;
+}
+.left-bottom-img {
+  position: absolute;
+  bottom: 0;
+  height: 333px;
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    &.resume {
+      border: none;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      .middle {
+        padding: 6px;
+      }
+    }
+  }
+  .user-personal-info {
+    text-align: center;
+    p {
+      font-weight: 400;
+    }
+  }
+  .profile-image-div {
+    position: relative;
+    img {
+      position: absolute;
+      top: -235px;
+      max-width: 60%;
+      left: 20%;
+    }
+  }
+  .resume {
+    margin-top: 113px;
+  }
+  .resume-main {
+    padding: 7px !important;
+  }
+  .resume-col {
+    padding: 0px 0px !important;
+    padding-top: 112px !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  }
+  .experience {
+    padding-right: 0px;
+  }
+  .experience-text {
+    font-size: 16px;
+  }
+  .remote {
+    padding: 2px 5px !important;
+    font-size: 0.75rem !important;
+  }
+  .education-item .eduAndSchool {
+    font-size: 10px !important;
+    padding: 0px;
+  }
+  .work-experience-section {
+    margin-top: 50px;
+  }
+}
