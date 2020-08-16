@@ -1,5 +1,8 @@
 .header {
   background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  z-index: 1020;
 }
 .nav {
   min-height: 72px;
