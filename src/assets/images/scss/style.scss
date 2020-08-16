@@ -1,0 +1,38 @@
+*,
+*:active {
+  outline: none;
+}
+body {
+  overflow-x: hidden;
+  background-color: var(--background-color);
+  // max-height: 100vh;
+  // max-width: 100%;
+}
+.section-spacing {
+  // margin-top: 20px;
+  padding: 60px 0px;
+  &.intro {
+    padding-top: 20px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+li {
+  color: var(--main-heading);
+  font-family: Poppins;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400 !important;
+}
