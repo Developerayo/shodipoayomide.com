@@ -1,0 +1,31 @@
+.aboutMe {
+    background-color: var(--aboutme-blogs-bg);
+    // padding: 50px 0px;
+    .about-img-col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 7px;
+    }
+    .about-text-col {
+      padding: 10px 0px;
+      .about-me-heading {
+        position: relative;
+        &::before {
+          content: "";
+          width: 58px;
+          border-bottom: solid 5px #9e68ee;
+          position: absolute;
+          left: 0px;
+          bottom: -7px;
+          z-index: 1;
+        }
+      }
+      .about-list {
+        margin-top: 10px;
+        margin-bottom: 26px;
+      }
+    }
+  }
+
+  
