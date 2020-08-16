@@ -1,0 +1,26 @@
+.contact-us {
+    background-image: var(--contact-us-bg-img);
+  }
+  .contact-us-form-col {
+    padding: 0px 40px;
+  }
+  .contact-us-form {
+    .input-field {
+      display: block;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+      margin: 24px 0px;
+      background: transparent;
+      border-right: 0px;
+      padding: 6px 21px;
+      color: #5f5f5f;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 200;
+      &::placeholder {
+        color: #5f5f5f;
+      }
+    }
+
+  
