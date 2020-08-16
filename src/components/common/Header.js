@@ -82,6 +82,103 @@ const Header = props => {
         : (document.getElementById("projects-bg").src = projectsLite);
     }
   }, [darkTheme, setDarkTheme]);
- 
+  return (
+    <div
+      className="container-fluid header sticky-top"
+      style={show ? { height: "100vh" } : {}}
+      id="header"
+    >
+      <nav className="container navbar navbar-expand-lg pr-0 pl-0">
+        <Link to={`${routes.homepage}#home`} className="navbar-brand">
+          Developerayo
+        </Link>
+        <img
+          className="d-block d-lg-none themeswitcher-mob"
+          src={darkTheme ? light : dark}
+          alt=""
+          onClick={handleTheme}
+          style={{ maxHeight: "25px", cursor: "pointer" }}
+        />
+        <button
+          className={`navbar-toggler ${show}`}
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <HamburgerMenu
+            isOpen={show}
+            menuClicked={() => setShow(!show)}
+            width={20}
+            height={15}
+            strokeWidth={1}
+            rotate={0}
+            color={darkTheme ? "white" : "black"}
+            borderRadius={0}
+            animationDuration={0.5}
+          />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to={`${routes.homepage}#home`} className="nav-link">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={`${routes.homepage}#aboutMe`} className="nav-link">
+                About Me
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={`${routes.homepage}#intro`} className="nav-link">
+                Writing
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to={`${routes.homepage}#testimonials`}
+                className="nav-link"
+                aria-disabled="true"
+              >
+                Speaking
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={`${routes.homepage}#contactUs`} className="nav-link">
+                <button className="primary-btn">
+                  <img src={contact} alt="" />
+                  Contact Me
+                </button>
+              </Link>
+            </li>
+            <li className="nav-item d-none d-lg-block">
+              <img
+                src={darkTheme ? light : dark}
+                alt=""
+                onClick={handleTheme}
+                style={{ maxHeight: "20px", cursor: "pointer" }}
+              />
+            </li>
+          </ul>
+        </div>
+      </nav>
+      {show && (
+        <img
+          className="d-block d-lg-none"
+          src={socials1}
+          alt="socials"
+          style={{
+            width: "63%",
+            position: "absolute",
+            bottom: "20px",
+            left: "20px"
+          }}
+        />
+      )}
+    </div>
+  );
 };
 export default Header;
