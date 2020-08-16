@@ -5,7 +5,19 @@ import google from "../../../assets/images/google.png";
 import paypal from "../../../assets/images/paypal.png";
 import cloud from "../../../assets/images/cloud.png";
 
-
+const Companies = props => {
+  let icons = [
+    google,
+    facebook,
+    paypal,
+    cloud,
+    google,
+    facebook,
+    paypal,
+    cloud,
+    google,
+    facebook
+  ];
   return (
     <section id="companies" className="companies section-spacing">
       <p className="companiesText">
