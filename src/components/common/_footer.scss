@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 82px;
+    ::before {
+      content: "";
+      height: 1px;
+      width: 100%;
+      background-color: rgba(128, 128, 128, 0.35);
+    }
+    // border-top: 1px solid #707070;
+    .row {
+      height: 80px;
+    }
+    .footer-list {
+      list-style: none;
+      text-align: right;
+      margin-bottom: 0px;
+      li {
+        display: inline;
+        margin-right: 12px;
+        img {
+          width: 13px;
+        }
+      }
+    }
+    .footer-text {
+      color: #c4c4c4;
+      font-family: Poppins;
+      font-weight: 100;
+      font-size: 0.87rem;
+    }
+  }
