@@ -1,0 +1,40 @@
+.resume {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    // box-shadow: 0 0 1px #000000;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  
+    border: 12px solid var(--resume-main-bg);
+    .middle {
+      padding: 25px 3px;
+      .resume-main {
+        padding: 25px 30px;
+        // background-color: rgba(0, 0, 0, 0.28);
+        background-color: var(--resume-main-bg);
+        .row .resume-col {
+          padding: 10px 30px;
+        }
+      }
+    }
+  }
+  .resume-heading {
+    position: relative;
+    color: var(--main-heading);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    &::before {
+      content: "";
+      width: 10%;
+      border-bottom: solid 5px #9e68ee;
+      position: absolute;
+      left: 0px;
+      bottom: -7px;
+      z-index: 1;
+    }
+    &.profile-name {
+      &::before {
+        border-bottom: 0px !important;
+      }
+    }
+  }
