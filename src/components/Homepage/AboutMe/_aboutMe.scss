@@ -27,5 +27,37 @@
       }
     }
   }
-
+  .about-list li:first-child {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+    list-style-type: none;
+    position: relative;
+    &::before {
+      content: "";
+      width: 13%;
+      border-bottom: solid 3px var(--paragraph);
+      position: absolute;
+      left: -20px;
+      top: 45%;
+      z-index: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .about-text-col {
+      .about-text {
+        justify-content: center;
+      }
+      .about-lists-row {
+        justify-content: center;
+        .about-list {
+          max-width: 300px;
+        }
+      }
+    }
+    .contact-me-wrapper {
+      text-align: center;
+    }
+  }
   
