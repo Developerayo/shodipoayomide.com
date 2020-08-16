@@ -1,0 +1,20 @@
+.projects {
+    //   position: relative;
+    background-color: var(--background-color);
+  }
+  .projects-bg-img {
+    margin-left: -70px;
+    max-width: 100%;
+  }
+  .projects-list-img {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    max-width: 625px;
+  }
+  .projects-text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 70px;
+  }
