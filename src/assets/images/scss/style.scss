@@ -36,3 +36,120 @@ h5,
 h6 {
   font-weight: 400 !important;
 }
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.primary-btn {
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  background-color: #9828ee;
+  border: 0px;
+  outline: none !important;
+  font-size: 12px;
+  padding: 7px 20px;
+  border-radius: 4px;
+  img {
+    height: 12px;
+    margin-right: 5px;
+  }
+  &:active {
+    outline: none;
+  }
+}
+.description {
+  color: var(--paragraph);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  margin-top: 5px;
+  line-height: 1.4rem;
+}
+
+.title {
+  position: relative;
+  &::before {
+    content: "";
+    width: 58px;
+    border-bottom: solid 5px rgb(158, 104, 238);
+    position: absolute;
+    left: 0px;
+    top: 60%;
+    z-index: 1;
+  }
+  p {
+    color: #989898;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+}
+
+// PROJECTS AND BLOG HEADING
+.heading {
+  color: #d9d9d9;
+  font-family: Poppins;
+  font-size: 28px;
+  // font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 45px;
+}
+.paragraph {
+  color: #989898;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  line-height: 23px;
+}
+// END PROJECTS AND BLOG
+
+// OVERRIDES
+.navbar {
+  .navbar-brand:hover {
+    color: #9828ee;
+  }
+}
+
+// RESPONSIVENESS
+@media only screen and (max-width: 991px) {
+  .container {
+    width: inherit;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .section-spacing {
+    margin-top: 0px;
+    padding: 10px 0px;
+  }
+
+  .heading {
+    font-size: 1.3rem;
+    line-height: 28px;
+  }
+
+  .primary-btn {
+    font-size: 10px;
+    padding: 6px 18px;
+  }
+}
+
+// TOAST STYLING
+.Toastify__toast-container {
+  width: 250px !important;
+}
+.Toastify__toast {
+  min-height: 44px !important;
+}
+.Toastify__toast-body {
+  color: white !important;
+  font-size: 13px !important;
+}
