@@ -13,24 +13,17 @@ const AboutMe = props => (
           </div>
           <div className="about-text">
             <p className="description">
-              Lorem ipsum dolor sit amet, consetetur sacing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd
+            Building Developer Communities in Africa and acorss the globe, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
             </p>
           </div>
           <div className="row ml-0 about-lists-row">
             <ul className="col-12 col-lg-6 about-list">
-              <li className="description">Problem Solving</li>
-              <li className="description">Finding the Right Solution</li>
-              <li className="description">Finding the Right Solution</li>
-              <li className="description">Finding the Right Solution</li>
+              <li className="description">Developer Relations</li>
+             <p>Lead teams in DevRel & Managed high scale programs in DevRel acorss Africa.</p>
             </ul>
             <ul className="col-12 col-lg-6 about-list">
-              <li className="description">Problem Solving</li>
-              <li className="description">Finding the Right Solution</li>
-              <li className="description">Finding the Right Solution</li>
-              <li className="description">Finding the Right Solution</li>
+              <li className="description">Engineering</li>
+              <p>Over 8 years experience building complex systems from the Web to mobile and Desktop side of engineering, and as a Developer Advocate, working acoross technologies. </p>
             </ul>
             <ul className="col-12 col-lg-6 about-list">
               <li className="description">Problem Solving</li>
