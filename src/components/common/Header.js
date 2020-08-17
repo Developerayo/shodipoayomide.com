@@ -90,7 +90,7 @@ const Header = props => {
     >
       <nav className="container navbar navbar-expand-lg pr-0 pl-0">
         <Link to={`${routes.homepage}#home`} className="navbar-brand">
-          Shodipo Ayomide
+          Ayomide
         </Link>
         <img
           className="d-block d-lg-none themeswitcher-mob"
@@ -129,7 +129,7 @@ const Header = props => {
             </li>
             <li className="nav-item">
               <Link to={`${routes.homepage}#aboutMe`} className="nav-link">
-                About Me
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -151,7 +151,7 @@ const Header = props => {
               <Link to={`${routes.homepage}#contactUs`} className="nav-link">
                 <button className="primary-btn">
                   <img src={contact} alt="" />
-                  Contact Me
+                  Email
                 </button>
               </Link>
             </li>

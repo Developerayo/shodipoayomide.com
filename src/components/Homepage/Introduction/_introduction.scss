@@ -15,6 +15,7 @@
     padding: 89px;
     padding-top: 65px;
     padding-left: 88px;
+    // box-shadow: #222;
     .brackets {
       position: absolute;
       top: 22px;
@@ -73,6 +74,7 @@
       .desc {
         // line-height: 27px;
         margin-bottom: 28px;
+        color: rgb(190, 190, 190);
       }
       button {
         max-width: fit-content;

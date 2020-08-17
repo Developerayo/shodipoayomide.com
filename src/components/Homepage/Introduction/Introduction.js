@@ -1,6 +1,6 @@
 import React from "react";
 import "./_introduction.scss";
-import freelancer from "../../../assets/images/freelancer.png";
+import shodipoayomide from "../../../assets/images/shodipoayomide.JPG";
 import dots from "../../../assets/images/dots.png";
 import line from "../../../assets/images/introlines.png";
 import dotsSquare from "../../../assets/images/dots-square.png";
@@ -19,11 +19,9 @@ const Introduction = props => (
         </div>
         <div className="intro-text-box">
           <h1>Shodipo Ayomide</h1>
-          <p className="sub-text">Senior Developer Advocate af Fleek</p>
+          <p className="sub-text">Senior Developer Advocate.</p>
           <p className="description desc">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat
+           Building Developer Communities in Africa and acorss the globe, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
           </p>
           <img
             className="d-block d-lg-none"
@@ -31,7 +29,7 @@ const Introduction = props => (
             alt="socials"
             style={{ width: "79%", marginBottom: "20px" }}
           />
-          <button className="primary-btn">Learn More</button>
+          <a href="https://speaking.shodipoayomide.com"> <button className="primary-btn">Learn More</button></a>
         </div>
         <img src={zigzag} className="zigzag d-none d-lg-block" alt="zig-zag" />
       </div>
@@ -40,7 +38,7 @@ const Introduction = props => (
           <img className="img-fluid dots-img" src={dots} alt="freelancer" />
         </div>
         <div className="freelancer-img-div">
-          <img className="img-fluid" src={freelancer} alt="freelancer" />
+          <img className="img-fluid" src={shodipoayomide} alt="shodipoayomide" />
           <img
             className="brackets d-none d-lg-block"
             src={brackets}
