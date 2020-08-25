@@ -47,11 +47,13 @@ h6 {
   font-weight: 400;
   letter-spacing: 1.1px;
   background-color: #9828ee;
-  border: 0px;
+  border: 0;
   outline: none !important;
   font-size: 12px;
   padding: 7px 20px;
   border-radius: 4px;
+  cursor: pointer;
+
   img {
     height: 12px;
     margin-right: 5px;

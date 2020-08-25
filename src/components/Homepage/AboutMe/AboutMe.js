@@ -24,12 +24,13 @@ const AboutMe = props => (
              <p>I have Lead DevRel teams & Managed high scale programs in DevRel acorss Africa, positioning a product at a point of a unique developer onboarding experience.</p>
             </ul>
             <ul className="col-12 col-lg-6 about-list">
-              <li className="description">Engineering</li>
-              <p>Over 8 years experience building complex systems from the web to mobile and desktop side of engineering, and as a Developer Advocate, working acoross many technologies. </p>
+              <li className="description">Program Manager</li>
+              <p>I have managed highscale programs for companies based on contract, my goal was to come up with a program that would help onboard more developers into a cool new program.</p>
+              
             </ul>
             <ul className="col-12 col-lg-6 about-list">
-            <li className="description">Program Manager</li>
-              <p>I have managed highscale programs for companies based on contract, my goal was to come up with a program that would help onboard more developers into a cool new pltaform.</p>
+            <li className="description">Engineering </li>
+            <p>Over 8 years experience building complex systems from the web to mobile and desktop side of engineering, and as a Developer Advocate, working acoross many technologies. </p>
             </ul>
             <ul className="col-12 col-lg-6 about-list">
               <li className="description">Community Manager</li>

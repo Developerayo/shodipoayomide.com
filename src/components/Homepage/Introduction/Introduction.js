@@ -21,7 +21,7 @@ const Introduction = props => (
           <h1>Shodipo Ayomide</h1>
           <p className="sub-text">Senior Developer Advocate.</p>
           <p className="description desc">
-           Building Developer Communities in Africa and acorss the globe, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
+           Building developer programs/communities in Africa and acorss the globe, Advocating for technologies, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
           </p>
           <img
             className="d-block d-lg-none"
@@ -29,7 +29,7 @@ const Introduction = props => (
             alt="socials"
             style={{ width: "79%", marginBottom: "20px" }}
           />
-          <a href="https://speaking.shodipoayomide.com"> <button className="primary-btn">Learn More</button></a>
+          <a href="https://speaking.shodipoayomide.com" target="_blank" rel="noopener noreferrer"> <button className="primary-btn">Learn More</button></a>
         </div>
         <img src={zigzag} className="zigzag d-none d-lg-block" alt="zig-zag" />
       </div>

@@ -18,8 +18,8 @@ const Homepage = props => {
       <Header />
       <Introduction />
       <AboutMe />
-      <Companies />
-      <Projects />
+      {/* <Companies />
+      <Projects /> */}
       <MyBlogs />
       <Testimonials />
       <ContactUs />
