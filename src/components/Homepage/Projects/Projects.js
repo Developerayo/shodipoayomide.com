@@ -1,3 +1,6 @@
+// remove from home for now
+
+
 import React, { useState } from "react";
 import "./_projects.scss";
 import bg from "../../../assets/images/projects-bg.png";

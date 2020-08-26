@@ -95,20 +95,6 @@ const MyBlogs = props => {
                     </div>
                   </div>
                 </li>
-                <li>
-                  <div className="row">
-                    <div className="col-4 col-lg-3 pl-0 column">
-                      August 2, 2020
-                    </div>
-                    <div className="col-7 col-lg-6 column blog-name">
-                     <a href="" style={{textDecoration: "none"}} alt="" target="_blank" rel="noopener noreferrer"> <h6>Mentorship: The Way Forward</h6></a>
-                    </div>
-                    <div className="col-1 col-lg-1 pr-0 text-right column">
-                    <a href="" style={{textDecoration: "none"}} alt="" target="_blank" rel="noopener noreferrer"> <img src={toRight} alt="" /></a>
-                    </div>
-                  </div>
-                </li>
-                
             </ul>
           </div>
         </div>

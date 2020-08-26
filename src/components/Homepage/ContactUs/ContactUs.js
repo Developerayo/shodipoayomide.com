@@ -11,7 +11,7 @@ const _contactUs = props => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("write your message here");
+  const [message, setMessage] = useState("");
   const [sending, setSending] = useState(false);
 
   const sendMail = e => {
@@ -64,7 +64,7 @@ const _contactUs = props => {
       .catch(err => {
         console.log(err);
         setSending(false);
-        toast.error("Something went wrong");
+        toast.error("Oops! Something went wrong");
       });
   };
 
@@ -78,17 +78,15 @@ const _contactUs = props => {
           <div className="row">
             <div className="col-12 col-lg-5 projects-text-col pr-1">
               <div className="title">
-                <p>Contact Us</p>
+                <p>Email?</p>
               </div>
-              <h5 className="heading">
-                Got a project?
+              <h5>
+                Got an invitation?
                 <br /> Let's talk.
               </h5>
-              <p className="paragraph">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-              </p>
-              <div>shodipovi@gmail.com</div>
+              <div>
+              <a href="mailto:shodipovi@gmail.com"> <h6>shodipovi@gmail.com</h6></a>
+              </div>
             </div>
             <div className="col-12 col-lg-7 contact-us-form-col position-relative">
               <form className="contact-us-form" onSubmit={sendMail}>
@@ -118,6 +116,7 @@ const _contactUs = props => {
                 />
                 <textarea
                   id="message"
+                  placeholder="write your message here"
                   name="message"
                   rows="5"
                   className="message-text"
