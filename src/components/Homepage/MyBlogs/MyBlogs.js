@@ -4,7 +4,7 @@ import toRight from "../../../assets/images/point-to-right.png";
 import circles from "../../../assets/images/circles.png";
 
 const MyBlogs = props => {
-  let arr = [1, 2, 3, 4, 5, 6, 7];
+  // let arr = [1, 2, 3, 4, 5, 6, 7];
   return (
     <section
       id="blogs"
