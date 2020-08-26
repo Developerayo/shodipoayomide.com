@@ -6,6 +6,7 @@ import line from "../../../assets/images/introlines.png";
 import dotsSquare from "../../../assets/images/dots-square.png";
 import socials from "../../../assets/images/socials.png";
 import socials1 from "../../../assets/images/socials-1.png";
+import contact from "../../../assets/images/contact.png";
 import brackets from "../../../assets/images/brackets.png";
 import file from "../../../assets/images/file.png";
 import zigzag from "../../../assets/images/zigzag.png";
@@ -19,7 +20,7 @@ const Introduction = props => (
         </div> */}
         <div className="intro-text-box">
           <h1>Shodipo Ayomide</h1>
-          <p className="sub-text">Senior Developer Advocate.</p>
+          <p className="sub-text">Senior Developer Advocate & Program Manager.</p>
           <p className="description desc">
            Building developer programs/communities in Africa and acorss the globe, Advocating for technologies, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
           </p>
@@ -29,7 +30,7 @@ const Introduction = props => (
             alt="socials"
             style={{ width: "79%", marginBottom: "20px" }}
           /> */}
-          <a href="https://speaking.shodipoayomide.com" target="_blank" rel="noopener noreferrer"> <button className="primary-btn">Learn More</button></a>
+          <a href="https://speaking.shodipoayomide.com" target="_blank" rel="noopener noreferrer"> <button className="primary-btn"><img src={contact} alt="" />&nbsp;Send an Invite</button></a>
         </div>
         <img src={zigzag} className="zigzag d-none d-lg-block" alt="zig-zag" />
       </div>

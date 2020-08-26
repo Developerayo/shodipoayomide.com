@@ -1,6 +1,6 @@
 import React from "react";
 import "./_aboutMe.scss";
-import aboutImg from "../../../assets/images/aboutMe.png";
+import aboutImg from "../../../assets/images/about.svg";
 import contact from "../../../assets/images/contact.png";
 import { Link } from "react-router-dom";
 import * as routes from "../../../routePaths";
@@ -41,13 +41,13 @@ const AboutMe = props => (
           <Link to={`${routes.homepage}#contactUs`} className="nav-link">
             <button className="primary-btn">
               <img src={contact} alt="contact" />
-              Contact Me
+             Send an Email
             </button>
             </Link>
           </div>
         </div>
         <div className="col-12 col-lg-7 about-img-col">
-          <img className="img-fluid" src={aboutImg} alt="about-me" />
+          <img className="img-fluid" src={aboutImg} alt="about-me" style={{width: "500px"}} />
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import HamburgerMenu from "react-hamburger-menu";
 import * as routes from "../../routePaths";
 import "./_header.scss";
 import contact from "../../assets/images/contact.png";
-import socials1 from "../../assets/images/socials-1.png";
+// import socials1 from "../../assets/images/socials-1.png";
 import dark from "../../assets/images/dark.png";
 import light from "../../assets/images/light.png";
 import projects from "../../assets/images/projects.png";
@@ -135,7 +135,7 @@ const Header = props => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={`${routes.homepage}#intro`} className="nav-link">
+              <Link to={`${routes.homepage}#blogs`} className="nav-link">
                 Writing
               </Link>
             </li>
@@ -153,7 +153,7 @@ const Header = props => {
               <Link to={`${routes.homepage}#contactUs`} className="nav-link">
                 <button className="primary-btn">
                   <img src={contact} alt="" />
-                  Email
+                  Contact
                 </button>
               </Link>
             </li>
@@ -168,7 +168,7 @@ const Header = props => {
           </ul>
         </div>
       </nav>
-      {show && (
+      {/* {show && (
         <img
           className="d-block d-lg-none"
           src={socials1}
@@ -180,7 +180,7 @@ const Header = props => {
             left: "20px"
           }}
         />
-      )}
+      )} */}
     </div>
   );
 };
