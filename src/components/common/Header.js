@@ -10,6 +10,8 @@ import light from "../../assets/images/light.png";
 import projects from "../../assets/images/projects.png";
 import projectsLite from "../../assets/images/projects-lite.png";
 
+// import {Animated} from "react-animated-css";
+
 const Header = props => {
   let [show, setShow] = useState(false);
   let [darkTheme, setDarkTheme] = useState(
@@ -90,7 +92,7 @@ const Header = props => {
     >
       <nav className="container navbar navbar-expand-lg pr-0 pl-0">
         <Link to={`${routes.homepage}#home`} className="navbar-brand">
-          Ayomide
+          Shodipo Ayomide
         </Link>
         <img
           className="d-block d-lg-none themeswitcher-mob"

@@ -14,21 +14,21 @@ const Introduction = props => (
   <section id="intro" className="intro container section-spacing">
     <div className="row">
       <div className="col-12 col-lg-6 intro-text-col">
-        <div className="socials-img d-none d-lg-block">
+        {/* <div className="socials-img d-none d-lg-block">
           <img src={socials} alt="socials" style={{ width: "12px" }} />
-        </div>
+        </div> */}
         <div className="intro-text-box">
           <h1>Shodipo Ayomide</h1>
           <p className="sub-text">Senior Developer Advocate.</p>
           <p className="description desc">
            Building developer programs/communities in Africa and acorss the globe, Advocating for technologies, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
           </p>
-          <img
+          {/* <img
             className="d-block d-lg-none"
             src={socials1}
             alt="socials"
             style={{ width: "79%", marginBottom: "20px" }}
-          />
+          /> */}
           <a href="https://speaking.shodipoayomide.com" target="_blank" rel="noopener noreferrer"> <button className="primary-btn">Learn More</button></a>
         </div>
         <img src={zigzag} className="zigzag d-none d-lg-block" alt="zig-zag" />
@@ -38,7 +38,7 @@ const Introduction = props => (
           <img className="img-fluid dots-img" src={dots} alt="freelancer" />
         </div>
         <div className="freelancer-img-div">
-          <img className="img-fluid" src={shodipoayomide} alt="shodipoayomide" />
+          <img className="img-fluid" style={{borderStyle: "dashed", borderColor: "#B2ACAB"}} src={shodipoayomide} alt="shodipoayomide" />
           <img
             className="brackets d-none d-lg-block"
             src={brackets}
