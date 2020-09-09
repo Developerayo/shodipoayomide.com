@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build" : "ls /opt/build/repo/public && yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
