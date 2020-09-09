@@ -14,7 +14,7 @@ const AboutMe = props => (
             <h4 className="about-me-heading">About Me</h4>
           </div>
           <div className="about-text">
-            <p className="description">
+            <p className="description"> 
             Building Developer Communities in Africa and acorss the globe, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
             </p>
           </div>
