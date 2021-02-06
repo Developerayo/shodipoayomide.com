@@ -14,11 +14,15 @@ const AboutMe = props => (
             <h4 className="about-me-heading">About Me</h4>
           </div>
           <div className="about-text">
-            <p className="description"> 
-            Building Developer Communities in Africa and acorss the globe, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
+            <p className="description" style={{color: "#969696"}}> 
+            Hi, I'm Shodipo Ayomide a Developer Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management and Product Design on a global scale. < br/> < br/>
+
+He has giving talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, he is also one of the organizers of the Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world. In addition, he is an Expert and Instructor at egghead.io < br/> < br/>
+
+Among his latest topics we can find: Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
             </p>
           </div>
-          <div className="row ml-0 about-lists-row">
+          {/* <div className="row ml-0 about-lists-row">
             <ul className="col-12 col-lg-6 about-list">
               <li className="description">Developer Relations</li>
              <p>I have Lead DevRel teams & Managed high scale programs in DevRel acorss Africa, positioning a product at a point of a unique developer onboarding experience.</p>
@@ -36,7 +40,9 @@ const AboutMe = props => (
               <li className="description">Community Manager</li>
               <p>Starting, building and scaling communities is exciting, organizing conferences or meetups to empower the people in the community with technology has always been exciting to me.</p>
             </ul>
-          </div>
+          </div> */}
+
+
           <div className="contact-me-wrapper">
           <Link to={`${routes.homepage}#contactUs`} className="nav-link">
             <button className="primary-btn">

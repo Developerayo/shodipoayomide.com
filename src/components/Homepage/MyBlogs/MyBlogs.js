@@ -14,22 +14,35 @@ const MyBlogs = props => {
         <div className="row">
           <div className="col-12 col-lg-5  projects-text-col">
             <div className="title">
-              <p>Latest Articles</p>
+              <p style={{paddingBottom: "10px"}}>Latest Articles</p>
             </div>
             <h5>
               What's new?
               <br />
               My blog and news.
             </h5>
-            <p className="paragraph">
-              I write about engineering, design, <br /> community & life
+            <p className="paragraph" style={{color: "#969696"}}>
+              I write usuallly about engineering, community, <br />  & life.
             </p>
             <div>
-              <a href="https://blog.shodipoayomide.com" alt="" target="_blank" rel="noopener noreferrer"><button className="primary-btn">Read My Articles</button></a>
+              <a href="https://blog.shodipoayomide.com" alt="" target="_blank" rel="noopener noreferrer"><button className="primary-btn">Read My Articles</button></a> <br /><br /><br />
             </div>
           </div>
           <div className="col-12 col-lg-7 position-relative">
             <ul className="blogs-list">
+            <li>
+                  <div className="row">
+                    <div className="col-4 col-lg-3 pl-0 column">
+                      January 12, 2021
+                    </div>
+                    <div className="col-7 col-lg-6 column blog-name">
+                     <a href="https://dev.to/developerayo/the-journey-is-only-1-finished-10o" style={{textDecoration: "none"}} alt="" target="_blank" rel="noopener noreferrer"> <h6>The journey is only 1% finished</h6></a>
+                    </div>
+                    <div className="col-1 col-lg-1 pr-0 text-right column">
+                    <a href="https://dev.to/developerayo/the-journey-is-only-1-finished-10o" style={{textDecoration: "none"}} alt="" target="_blank" rel="noopener noreferrer"> <img src={toRight} alt="" /></a>
+                    </div>
+                  </div>
+                </li>
                 <li>
                   <div className="row">
                     <div className="col-4 col-lg-3 pl-0 column">
@@ -106,7 +119,7 @@ const MyBlogs = props => {
         style={{
           position: "absolute",
           top: "15%",
-          left: "100px",
+          left: "800px",
           maxHeight: "70%"
           // display : "none"
         }}

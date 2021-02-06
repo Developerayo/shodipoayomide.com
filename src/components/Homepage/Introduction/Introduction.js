@@ -1,6 +1,6 @@
 import React from "react";
 import "./_introduction.scss";
-import shodipoayomide from "../../../assets/images/shodipoayomide.JPG";
+import shodipoayomide from "../../../assets/images/shodipoayomide.jpg";
 import dots from "../../../assets/images/dots.png";
 import line from "../../../assets/images/introlines.png";
 import dotsSquare from "../../../assets/images/dots-square.png";
@@ -20,9 +20,9 @@ const Introduction = props => (
         </div> */}
         <div className="intro-text-box">
           <h1>Shodipo Ayomide</h1>
-          <p className="sub-text">Senior Developer Advocate & Program Manager.</p>
-          <p className="description desc">
-           Building developer programs/communities in Africa and acorss the globe, Advocating for technologies, sharing technical knowledge via talks, keynotes and workshops at conferences across the globe.
+          <p className="sub-text">Developer Relations Manager (Community + Platform Engineering) at <b>Stack Overflow</b></p>
+          <p className="description desc" style={{color: "#969696"}}>
+           The future of problem solving as engineers is a point where a safe space is availabe where users can easily search for errors they encounter while codeing and find a single source of truth empowering the community with the right answers consistently.
           </p>
           {/* <img
             className="d-block d-lg-none"
@@ -30,7 +30,7 @@ const Introduction = props => (
             alt="socials"
             style={{ width: "79%", marginBottom: "20px" }}
           /> */}
-          <a href="https://speaking.shodipoayomide.com" target="_blank" rel="noopener noreferrer"> <button className="primary-btn"><img src={contact} alt="" />&nbsp;Send an Invite</button></a>
+          <a href="https://speaking.shodipoayomide.com" target="_blank" rel="noopener noreferrer"> <button className="primary-btn">Speaking</button></a>
         </div>
         <img src={zigzag} className="zigzag d-none d-lg-block" alt="zig-zag" />
       </div>

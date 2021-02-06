@@ -78,7 +78,7 @@ const _contactUs = props => {
           <div className="row">
             <div className="col-12 col-lg-5 projects-text-col pr-1">
               <div className="title">
-                <p>Email?</p>
+                <p style={{paddingBottom: "10px"}}>Email?</p>
               </div>
               <h5>
                 Got an invitation?
