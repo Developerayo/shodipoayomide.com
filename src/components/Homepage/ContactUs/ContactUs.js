@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./_contactUs.scss";
-import arrow from "../../../assets/images/right-arrow.png";
-import * as routes from "../../../routePaths";
+// import arrow from "../../../assets/images/right-arrow.png";
+// import * as routes from "../../../routePaths";
 import validator from "validator";
 import * as emailjs from "emailjs-com";
 import { toast, ToastContainer } from "react-toastify";

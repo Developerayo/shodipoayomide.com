@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import HamburgerMenu from "react-hamburger-menu";
 import * as routes from "../../routePaths";
 import "./_header.scss";
-import contact from "../../assets/images/contact.png";
+// import contact from "../../assets/images/contact.png";
 // import socials1 from "../../assets/images/socials-1.png";
 import dark from "../../assets/images/dark.png";
 import light from "../../assets/images/light.png";
