@@ -125,17 +125,17 @@ const Header = props => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to={`${routes.homepage}#home`} className="nav-link">
+              <Link to={`${routes.homepage}#home`} className="nav-link" style={{color: "#969696"}}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={`${routes.homepage}#aboutMe`} className="nav-link">
+              <Link to={`${routes.homepage}#aboutMe`} className="nav-link" style={{color: "#969696"}}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={`${routes.homepage}#blogs`} className="nav-link">
+              <Link to={`${routes.homepage}#blogs`} className="nav-link" style={{color: "#969696"}}>
                 Writing
               </Link>
             </li>
@@ -145,11 +145,12 @@ const Header = props => {
                 to={"//speaking.shodipoayomide.com"}
                 className="nav-link"
                 aria-disabled="true"
+                style={{color: "#969696"}}
               >
                 Speaking
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-">
               <Link to={`${routes.homepage}#contactUs`} className="nav-link">
                 <button className="primary-btn">
                   <img src={contact} alt="" />

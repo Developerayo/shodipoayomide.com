@@ -5,7 +5,6 @@ import contact from "../../../assets/images/contact.png";
 import { Link } from "react-router-dom";
 import * as routes from "../../../routePaths";
 
-
 const AboutMe = props => (
   <section id="aboutMe" className="aboutMe container-fluid section-spacing">
     <div className="container">
@@ -18,9 +17,9 @@ const AboutMe = props => (
             <p className="description" style={{color: "#969696"}}> 
             Hi, I'm Shodipo Ayomide a Developer Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management and Product Design on a global scale. < br/> < br/>
 
-He has giving talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, he is also one of the organizers of the Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world. In addition, he is an Expert and Instructor at egghead.io < br/> < br/>
+I have giving talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world in Technology. In addition, I am an Expert and Instructor at egghead.io < br/> < br/>
 
-Among his latest topics we can find: Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
+Among my latest topics we can find: Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
             </p>
           </div>
           {/* <div className="row ml-0 about-lists-row">
@@ -42,7 +41,6 @@ Among his latest topics we can find: Progressive Imaging & Handling: React + Web
               <p>Starting, building and scaling communities is exciting, organizing conferences or meetups to empower the people in the community with technology has always been exciting to me.</p>
             </ul>
           </div> */}
-
 
 
           <div className="contact-me-wrapper">
