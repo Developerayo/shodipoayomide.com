@@ -5,6 +5,7 @@ import contact from "../../../assets/images/contact.png";
 import { Link } from "react-router-dom";
 import * as routes from "../../../routePaths";
 
+
 const AboutMe = props => (
   <section id="aboutMe" className="aboutMe container-fluid section-spacing">
     <div className="container">

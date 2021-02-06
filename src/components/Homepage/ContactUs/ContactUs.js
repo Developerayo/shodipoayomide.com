@@ -39,11 +39,26 @@ const _contactUs = props => {
     }
 
     let templateParams = {
-
+      from_name: name,
+      to_name: "Shodipo Ayomide",
+      subject: subject,
+      message_html: message,
+      email : email
     };
+    emailjs
+      .send(
+        "gmail",
+        "template_Vw8OQELj",
+        templateParams,
+        "user_6HJktt9kRKnwxqo8qDYnT"
+      )
       .then(res => {
         console.log(res);
         toast.success("Message sent successfully");
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
         setSending(false);
       })
       .catch(err => {
