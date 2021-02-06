@@ -150,10 +150,9 @@ const Header = props => {
                 Speaking
               </Link>
             </li>
-            <li className="nav-">
+            <li className="nav-item">
               <Link to={`${routes.homepage}#contactUs`} className="nav-link">
                 <button className="primary-btn">
-                  <img src={contact} alt="" />
                   Contact
                 </button>
               </Link>
