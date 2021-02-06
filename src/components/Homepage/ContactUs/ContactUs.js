@@ -39,26 +39,11 @@ const _contactUs = props => {
     }
 
     let templateParams = {
-      from_name: name,
-      to_name: "Shodipo Ayomide",
-      subject: subject,
-      message_html: message,
-      email : email
+
     };
-    emailjs
-      .send(
-        "gmail",
-        "template_Vw8OQELj",
-        templateParams,
-        "user_6HJktt9kRKnwxqo8qDYnT"
-      )
       .then(res => {
         console.log(res);
         toast.success("Message sent successfully");
-        setName("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
         setSending(false);
       })
       .catch(err => {
@@ -137,7 +122,7 @@ const _contactUs = props => {
           </div>
         </div>
       </section>
-      <section className="section-spacing container-fluid click-to-view-resume">
+      {/* <section className="section-spacing container-fluid click-to-view-resume">
         <div className="row ">
           <div className="col-12 text-center">
             <p className="heading">Click to view my Resume!</p>
@@ -154,7 +139,7 @@ const _contactUs = props => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       <ToastContainer
         position="bottom-right"
         autoClose={3000}

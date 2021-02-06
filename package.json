@@ -15,6 +15,7 @@
     "react-hamburger-menu": "^1.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
+    "react-share": "^4.3.1",
     "react-toastify": "^6.0.8",
     "validator": "^13.1.1"
   },

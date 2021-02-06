@@ -32,8 +32,8 @@ const Footer = props => {
     <Fragment>
       <div className="container footer">
         <div className="row ml-0 mr-0">
-          <div className="col-12 col-lg-6 pl-0 footer-text">
-            &copy; 2020 Shodipo Ayomide
+          <div className="col-12 col-lg-6 pl-0 footer-text" style={{color: "#c2c2c2"}}>
+            &copy; 2021 Shodipo Ayomide
           </div>
           <div className="col-12 col-lg-6 pr-0">
             <ul className="footer-list">
