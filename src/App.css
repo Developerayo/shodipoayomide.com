@@ -1,0 +1,17 @@
+:root {
+    --background-color: #252525;
+    --main-heading: white;
+    --sub-heading: #aaa3a3;
+    /* --paragraph: #6d6d6d; */
+    --paragraph: black;
+    --aboutme-blogs-bg: #232323;
+    --companies-click-to-view-bg: "#252525";
+    --contact-us-bg-img: linear-gradient(180deg, #232323 0%, #272727 100%);
+    --resume-main-bg: #1b1b1b;
+    --testimonial: #2a303b;
+    --testimonial-shadow: #2c2e31;
+  }
+  html {
+    overflow-x: hidden !important;
+  }
+  

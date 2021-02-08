@@ -1,0 +1,36 @@
+.companies {
+    background-color: var(--companies-click-to-view-bg);
+  }
+  .companiesText {
+    color: #a6a6a6;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.75px;
+    text-align: center;
+  }
+  .icons-div {
+    margin: 0px;
+    text-align: center;
+    padding: 0px 100px;
+    margin-top: 29px;
+  }
+  .icon-fig {
+    display: inline-block;
+    transform: scale(0.65);
+    margin: 0px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .companiesText {
+      font-size: 1.2rem;
+    }
+    .companiesText {
+      margin-bottom: 5px;
+    }
+    .icons-div {
+      padding: 0px 13px;
+      margin-top: 0px;
+    }
+  }
+  

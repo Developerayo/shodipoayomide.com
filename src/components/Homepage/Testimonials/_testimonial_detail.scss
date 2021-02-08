@@ -1,0 +1,54 @@
+.testimonial-detail-image {
+    position: relative;
+    animation-name: example;
+    border-radius: 50%;
+    animation-duration: .09s;
+  }
+  
+  @keyframes example {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    10% {
+      left: 5px;
+      top: 5px;
+    }
+    20% {
+      left: 10px;
+      top: 10px;
+    }
+    30% {
+      left: 15px;
+      top: 15px;
+    }
+    40% {
+      left: 20px;
+      top: 20px;
+    }
+    50% {
+      left: 25px;
+      top: 25px;
+    }
+    60% {
+      left: 20px;
+      top: 20px;
+    }
+    70% {
+      left: 15px;
+      top: 15px;
+    }
+    80% {
+      left: 10px;
+      top: 10px;
+    }
+    90% {
+      left: 5px;
+      top: 5px;
+    }
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+  

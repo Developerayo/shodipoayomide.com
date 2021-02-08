@@ -1,0 +1,121 @@
+.intro {
+    position: relative;
+    padding-bottom: 45px;
+    // padding-top: 50px;
+  
+    .square-dots {
+      position: absolute;
+      left: 0;
+      padding-top: 30px;
+      bottom: -50px;
+      max-height: 130px;
+    }
+  }
+  .freelancer-img-div {
+    position: relative;
+    padding: 89px;
+    padding-top: 65px;
+    padding-left: 88px;
+    // box-shadow: #222;
+    
+    .brackets {
+      position: absolute;
+      top: 22px;
+      right: 34px;
+      height: 22px;
+    }
+    .file {
+      position: absolute;
+      bottom: 26px;
+      right: 34px;
+      height: 22px;
+    }
+  }
+  .dots {
+    position: absolute;
+    z-index: -1;
+    padding: 26px;
+    padding-top: 0px;
+  }
+  .dots-img {
+    max-height: 155px;
+  }
+  .dashed-box {
+    position: absolute;
+    bottom: 65px;
+    right: 73px;
+    height: 326px;
+    width: 363px;
+    z-index: -1;
+  }
+  .intro-text-col {
+    display: flex;
+    align-items: center;
+    .socials-img {
+      height: 100%;
+      margin-top: 50%;
+    }
+    .zigzag {
+      position: absolute;
+      right: 0;
+      bottom: 16%;
+      height: 45px;
+    }
+    .intro-text-box {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0px 60px;
+      .sub-text {
+        color: var(--sub-heading);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .desc {
+        // line-height: 27px;
+        margin-bottom: 28px;
+        color: rgb(190, 190, 190);
+      }
+      button {
+        max-width: fit-content;
+        // padding: 13px 44px;
+        // border-radius: 11px;
+        padding: 8px 28px;
+        border-radius: 5px;
+      }
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .intro {
+      padding-bottom: 0px;
+    }
+    .intro-text-col .intro-text-box {
+      text-align: center;
+      align-items: center;
+      padding: 0px 20px;
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+    .intro-text-col .intro-text-box button {
+      padding: 9px 24px;
+      border-radius: 6px;
+    }
+    .freelancer-img-div {
+      padding: 25px;
+      margin-top: 45px;
+    }
+    .dots {
+      top: 38px;
+      left: 0px;
+    }
+    .dashed-box {
+      bottom: 0px;
+      right: 23px;
+      height: 187px;
+      width: 197px;
+    }
+  }
+  

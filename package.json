@@ -1,27 +1,51 @@
 {
-  "private": true,
-  "name": "site",
-  "version": "1.0.0",
-  "license": "MIT",
-  "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "dev": "gatsby develop",
-    "clean": "gatsby clean",
-    "proxy": "netlify-cms-proxy-server"
-  },
+  "name": "Shodipo-Ayomide",
+  "version": "5.1.2",
+  "homepage": "./",
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.*",
-    "gatsby": "^2.13.41",
-    "gatsby-cli": "^2.11.11",
-    "gatsby-plugin-google-analytics": "^2.2.4",
-    "gatsby-plugin-mailchimp": "^5.1.2",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-netlify-cms": "^4.1.40",
-    "netlify-cms-app": "^2.11.23",
-    "netlify-cms-proxy-server": "^1.1.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-share": "^4.1.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "animate.css": "^4.1.0",
+    "emailjs-com": "^2.6.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "node-sass": "4.14.1",
+    "npm": "^7.5.2",
+    "react": "^16.13.1",
+    "react-animated-css": "^1.2.1",
+    "react-dom": "^16.13.1",
+    "react-hamburger-menu": "^1.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-share": "^4.3.1",
+    "react-social-plugins": "^2.1.0",
+    "react-toastify": "^6.0.8",
+    "validator": "^13.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

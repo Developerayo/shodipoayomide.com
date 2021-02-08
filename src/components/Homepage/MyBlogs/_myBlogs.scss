@@ -1,0 +1,32 @@
+.blogs {
+    background-color: var(--aboutme-blogs-bg);
+  }
+  
+  .blogs-list {
+    padding: 0px 66px;
+    list-style: none;
+    li {
+      padding: 4px 0px;
+    }
+    .column {
+      border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+      padding: 20px 0px;
+      margin-bottom: 17px;
+      &.blog-name {
+        color: white;
+      }
+      img {
+        height: 12px;
+      }
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .blogs-list {
+      padding: 0px 0px;
+      font-size: 0.76rem;
+      .column img {
+        height: 10px;
+      }
+    }
+  }
+  
