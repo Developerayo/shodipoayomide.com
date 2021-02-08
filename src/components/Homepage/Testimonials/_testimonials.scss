@@ -6,7 +6,7 @@
       &::before {
         content: "";
         width: 58px;
-        border-bottom: solid 5px #9e68ee;
+        border-bottom: solid 5px #F48024;
         position: absolute;
         left: 44%;
         top: 60%;
@@ -34,7 +34,7 @@
         font-weight: 500;
       }
       .testimonial-organzation {
-        color: #9e68ee;
+        color: #F48024;
       }
     }
     .testimonials-bg {
@@ -53,7 +53,7 @@
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    border: 4px solid #9e68ee;
+    border: 4px solid #F48024;
     cursor: pointer;
     &.sm {
       width: 52px;
