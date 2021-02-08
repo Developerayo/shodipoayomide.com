@@ -22,7 +22,7 @@ const MyBlogs = props => {
               My blog and news.
             </h5>
             <p className="paragraph" style={{color: "#969696"}}>
-              I write usuallly about engineering, community, <br />  & life.
+              I write usually about engineering, community, <br />  & life.
             </p>
             <div>
               <a href="https://blog.shodipoayomide.com" alt="" target="_blank" rel="noopener noreferrer"><button className="primary-btn">Read My Articles</button></a> <br /><br /><br />
@@ -72,7 +72,7 @@ const MyBlogs = props => {
                 <li>
                   <div className="row">
                     <div className="col-4 col-lg-3 pl-0 column">
-                      October 12 2019
+                      October 12, 2019
                     </div>
                     <div className="col-7 col-lg-6 column blog-name">
                      <a href="https://dev.to/developerayo/safeguard-your-blog-content-in-reactjs-and-css-510l" style={{textDecoration: "none"}} alt="" target="_blank" rel="noopener noreferrer"> <h6>Safeguard your blog content in Reactjs and CSS</h6></a>

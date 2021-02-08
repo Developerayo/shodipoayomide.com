@@ -22,7 +22,7 @@ const Introduction = props => (
           <h1>Shodipo Ayomide</h1>
           <p className="sub-text">Developer Relations Manager (Community + Platform Engineering) at <b>Stack Overflow</b></p>
           <p className="description desc" style={{color: "#969696"}}>
-           The future of problem solving as engineers is a point where a safe space is availabe where users can easily search for errors they encounter while codeing and find a single source of truth empowering the community with the right answers consistently.
+          The future of problem-solving as engineers is a point where a safe space is available where users can easily search for errors they encounter while coding and find a single source of truth empowering the community with the right answers consistently.
           </p>
           {/* <img
             className="d-block d-lg-none"
