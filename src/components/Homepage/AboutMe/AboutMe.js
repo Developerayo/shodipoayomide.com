@@ -15,11 +15,11 @@ const AboutMe = props => (
           </div>
           <div className="about-text">
             <p className="description" style={{color: "#969696"}}> 
-            Hi, I'm Shodipo Ayomide a Developer Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management and Product Design on a global scale. < br/> < br/>
+            Hi, I'm Shodipo Ayomide a Developer Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and Product Design on a global scale.< br/> < br/>
 
-I have giving talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world in Technology. In addition, I am an Expert and Instructor at egghead.io < br/> < br/>
+            I have given talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world in Technology. Also, I am an Expert and Instructor at egghead.io. < br/> < br/>
 
-Among my latest topics we can find: Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
+            Among my latest topics we can find: Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
             </p>
           </div>
           {/* <div className="row ml-0 about-lists-row">
