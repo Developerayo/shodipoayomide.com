@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from "react";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import "./_resume.scss";
-import profile from "../../assets/images/shodipoayomide.jpg";
+import profile from "./shodipoayomide.jpg";
 import inbox from "../../assets/images/inbox.png";
 import location from "../../assets/images/location.png";
 import art from "../../assets/images/art.png";

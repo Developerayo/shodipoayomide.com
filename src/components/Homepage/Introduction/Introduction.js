@@ -1,6 +1,6 @@
 import React from "react";
 import "./_introduction.scss";
-import shodipoayomide from "../../../assets/images/shodipoayomide.jpg";
+import shodipoayomide from "./shodipoayomide.jpg";
 import dots from "../../../assets/images/dots.png";
 import line from "../../../assets/images/introlines.png";
 import dotsSquare from "../../../assets/images/dots-square.png";
