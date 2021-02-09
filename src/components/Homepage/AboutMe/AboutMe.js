@@ -50,6 +50,11 @@ const AboutMe = props => (
              Send an Email
             </button>
             </Link>
+            <a href="https://www.notion.so/developerayo/Shodipo-Ayomide-Press-Kit-Presenter-Terms-dbc63437aa6e4bd1882dfb4de5223a10" target="_blank" rel="noopener noreferrer">
+            <button className="primary-btn" style={{marginLeft: "15px"}}>
+              <img src={contact} alt="contact" />
+             Press Kit
+            </button></a>
           </div>
         </div>
         <div className="col-12 col-lg-7 about-img-col">
