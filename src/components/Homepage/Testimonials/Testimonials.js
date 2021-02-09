@@ -60,6 +60,7 @@ const Testimonials = props => {
               className="avatar sm testimonial-image"
               src={testimonials[0].image}
               alt=""
+              loading="lazy"
               onClick={() => setSelected(testimonials[0])}
             />
           </div>
@@ -68,6 +69,7 @@ const Testimonials = props => {
               className="avatar sm testimonial-image"
               src={testimonials[1].image}
               alt=""
+              loading="lazy"
               onClick={() => setSelected(testimonials[1])}
             />
           </div>
@@ -78,6 +80,7 @@ const Testimonials = props => {
               className="avatar testimonial-image"
               src={testimonials[2].image}
               alt=""
+              loading="lazy"
               onClick={() => setSelected(testimonials[2])}
             />
           </div>
@@ -86,6 +89,7 @@ const Testimonials = props => {
               className="avatar testimonial-image"
               src={testimonials[3].image}
               alt=""
+              loading="lazy"
               onClick={() => setSelected(testimonials[3])}
             />
           </div>
