@@ -151,6 +151,17 @@ const Header = props => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link
+                target="_blank"
+                to={"//www.notion.so/developerayo/Shodipo-Ayomide-Press-Kit-Presenter-Terms-dbc63437aa6e4bd1882dfb4de5223a10"}
+                className="nav-link"
+                aria-disabled="true"
+                style={{color: "#969696"}}
+              >
+                Press Kit
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to={`${routes.homepage}#contactUs`} className="nav-link">
                 <button className="primary-btn">
                   Contact
