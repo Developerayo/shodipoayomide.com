@@ -39,7 +39,7 @@ const Introduction = props => (
           <img className="img-fluid dots-img" src={dots} alt="freelancer" />
         </div>
         <div className="freelancer-img-div">
-          <img className="img-fluid" style={{borderStyle: "dashed", borderColor: "#B2ACAB"}} src={shodipoayomide} alt="shodipoayomide" />
+          <img className="img-fluid" style={{borderStyle: "dashed", borderColor: "#B2ACAB"}} src={shodipoayomide} alt="shodipoayomide" loading="lazy" />
           <img
             className="brackets d-none d-lg-block"
             src={brackets}
