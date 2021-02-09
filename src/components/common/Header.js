@@ -28,6 +28,32 @@ const Header = props => {
     let darkTheme = JSON.parse(localStorage.getItem("darkTheme"));
 
     if (darkTheme) {
+      document.documentElement.style.setProperty(
+          `--background-color`,
+          "#252525"
+        );
+        document.documentElement.style.setProperty(`--main-heading`, "white");
+        document.documentElement.style.setProperty(`--sub-heading`, "#aaa3a3");
+        document.documentElement.style.setProperty(`--paragraph`, "#6d6d6d");
+        document.documentElement.style.setProperty(
+          `--aboutme-blogs-bg`,
+          "#232323"
+        );
+        document.documentElement.style.setProperty(
+          `--companies-click-to-view-bg`,
+          "#252525"
+        );
+        document.documentElement.style.setProperty(
+          `--contact-us-bg-img`,
+          "linear-gradient(180deg, #232323 0%, #272727 100%)"
+        );
+        document.documentElement.style.setProperty(`--resume-main-bg`, "#1B1B1B");
+        document.documentElement.style.setProperty(`--testimonial`, "#2a303b");
+        document.documentElement.style.setProperty(
+          `--testimonial-shadow`,
+          "#2c2e31"
+        );
+      } else {
       document.documentElement.style.setProperty(`--background-color`, "white");
       document.documentElement.style.setProperty(`--main-heading`, "#1d1d1d");
       document.documentElement.style.setProperty(`--sub-heading`, "#646464");
@@ -50,33 +76,6 @@ const Header = props => {
         `--testimonial-shadow`,
         "#D9D9D9"
       );
-  
-    } else {
-    document.documentElement.style.setProperty(
-      `--background-color`,
-      "#252525"
-    );
-    document.documentElement.style.setProperty(`--main-heading`, "white");
-    document.documentElement.style.setProperty(`--sub-heading`, "#aaa3a3");
-    document.documentElement.style.setProperty(`--paragraph`, "#6d6d6d");
-    document.documentElement.style.setProperty(
-      `--aboutme-blogs-bg`,
-      "#232323"
-    );
-    document.documentElement.style.setProperty(
-      `--companies-click-to-view-bg`,
-      "#252525"
-    );
-    document.documentElement.style.setProperty(
-      `--contact-us-bg-img`,
-      "linear-gradient(180deg, #232323 0%, #272727 100%)"
-    );
-    document.documentElement.style.setProperty(`--resume-main-bg`, "#1B1B1B");
-    document.documentElement.style.setProperty(`--testimonial`, "#2a303b");
-    document.documentElement.style.setProperty(
-      `--testimonial-shadow`,
-      "#2c2e31"
-    );
   }
     let projectSection = document.getElementById("projects-bg");
     if (projectSection) {
