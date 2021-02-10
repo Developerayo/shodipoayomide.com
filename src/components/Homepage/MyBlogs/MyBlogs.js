@@ -25,7 +25,7 @@ const MyBlogs = props => {
               I write usually about engineering, community, <br />  & life.
             </p>
             <div>
-              <a href="https://blog.shodipoayomide.com" alt="" target="_blank" rel="noopener noreferrer"><button className="primary-btn">Read My Articles</button></a> <br /><br /><br />
+              <a href="https://dev.to/developerayo" alt="" target="_blank" rel="noopener noreferrer"><button className="primary-btn">Read My Articles</button></a> <br /><br /><br />
             </div>
           </div>
           <div className="col-12 col-lg-7 position-relative">

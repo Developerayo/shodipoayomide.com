@@ -26,7 +26,7 @@ let dataArray = [
     post: "Software Engineer",
     organization: "Aula",
     image:
-      "https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/Kingdom-ojewuru.jpg",
+      "https://res.cloudinary.com/developerayo/image/upload/v1612956970/kingdom.jpg",
     description:
       " I started unStack with Shodipo because when it comes to building developer communities, it's in his DNA. I have enjoyed working with him in planning events that attracted many local and international speakers. His organizational skills are top-notch and I've enjoyed learning some skills from him which has helped me become better at planning and running developer community events. Shodipo is also an avid speaker who delivers great content with his talks and workshop around the globe. He's a great teammate and a highly passionate about his work."
   },
