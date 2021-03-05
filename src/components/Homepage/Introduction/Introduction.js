@@ -20,7 +20,7 @@ const Introduction = props => (
         </div> */}
         <div className="intro-text-box">
           <h1>Shodipo Ayomide</h1>
-          <p className="sub-text">Developer Relations Manager (Community + Platform Engineering) at <b>Stack Overflow</b></p>
+          <p className="sub-text">Dev. Relations Manager (Community + Platform Engineering) at <b>Stack Overflow</b></p>
           <p className="description desc" style={{color: "#969696"}}>
           The future of problem-solving as engineers is a point where a safe space is available and users can easily search for errors they encounter while coding and find a single source of truth empowering the community with the right answers consistently.
           </p>

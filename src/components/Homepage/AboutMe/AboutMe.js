@@ -15,7 +15,7 @@ const AboutMe = props => (
           </div>
           <div className="about-text">
             <p className="description" style={{color: "#969696"}}> 
-            Hi, I'm Shodipo Ayomide a Developer Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and Product Design on a global scale.< br/> < br/>
+            Hi, I'm Shodipo Ayomide a Dev. Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and Product Design on a global scale.< br/> < br/>
 
             I have given talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world in Technology. Also, I am an Expert and Instructor at egghead.io. < br/> < br/>
 
