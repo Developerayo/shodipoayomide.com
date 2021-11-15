@@ -15,11 +15,11 @@ const AboutMe = props => (
           </div>
           <div className="about-text">
             <p className="description" style={{color: "#969696"}}> 
-            Hi, I'm Shodipo Ayomide a Dev. Relations Manager at Stack Overflow with 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and Product Design on a global scale.< br/> < br/>
+            Hi, I'm Shodipo Ayomide, I lead the Global Developer Advocacy Team at Polygon, building Ethereum-compatible blockchain, i've got about 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and cross team leardership on a global scale.< br/> < br/>
 
-            I have given talks/workshops at developer conferences around the globe at React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world in Technology. Also, I am an Expert and Instructor at egghead.io. < br/> < br/>
+            I've given talks/workshops at developer conferences around the globe at conferences like, React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA, Google Developer Groups among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world with Technology. < br/> < br/>
 
-            Among my latest topics we can find: Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
+            Among my latest topics we can find: Talking Decentralized Finance and building dApps on Ethereum, Progressive Imaging & Handling: React + WebPack, Fast and Furious with VueJS & WebPack, Getting up to Speed With Deno, Automating Workflow Processes Using GitHub Actions, Design from the Realm of Open-Source, Technical Principles to Developer Experience and others. < br/> < br/>
             </p>
           </div>
           {/* <div className="row ml-0 about-lists-row">

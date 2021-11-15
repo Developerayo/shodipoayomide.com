@@ -41,7 +41,7 @@ const Projects = props => {
           </p>
           <a
             href="#projects"
-            style={{ color: "#F48024", zIndex: 100000, cursor: "pointer" }}
+            style={{ color: "#8247E5", zIndex: 100000, cursor: "pointer" }}
           >
             View More Projects
             <img
