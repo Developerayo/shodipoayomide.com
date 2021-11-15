@@ -20,9 +20,9 @@ const Introduction = props => (
         </div> */}
         <div className="intro-text-box">
           <h1>Shodipo Ayomide</h1>
-          <p className="sub-text">Dev. Relations Manager (Community + Platform Engineering) at <b>Stack Overflow</b></p>
+          <p className="sub-text">Global Head, Developer Advocacy at <b>Polygon</b></p>
           <p className="description desc" style={{color: "#969696"}}>
-          The future of problem-solving as engineers is a point where a safe space is available and users can easily search for errors they encounter while coding and find a single source of truth empowering the community with the right answers consistently.
+          Polygon solves pain points associated with Blockchains, like high gas fees and slow speeds, without sacrificing on security. This multi-chain system is akin to other ones such as Polkadot, Cosmos, Avalanche etc, but with at least three major upsides:
           </p>
           {/* <img
             className="d-block d-lg-none"
