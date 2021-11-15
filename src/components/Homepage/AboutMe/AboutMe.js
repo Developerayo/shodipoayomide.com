@@ -15,7 +15,7 @@ const AboutMe = props => (
           </div>
           <div className="about-text">
             <p className="description" style={{color: "#969696"}}> 
-            Hi, I'm Shodipo Ayomide, I lead the Global DevRel Team at Polygon, building Ethereum-compatible blockchain, i've got about 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and cross team leardership on a global scale.< br/> < br/>
+            Hi, I'm Shodipo Ayomide, I lead the Global Developer Advocacy Team at Polygon, building Ethereum-compatible blockchain, i've got about 9 years of experience in Technology and a track record in Web & Mobile Engineering, Community Management, and cross team leardership on a global scale.< br/> < br/>
 
             I've given talks/workshops at developer conferences around the globe at conferences like, React Atlanta, FutureSync Conference, VueJS Amsterdam, VueJS Toronto, APIDAYS Hong Kong, Frontend Love Conference Amsterdam, FOSSASIA, Google Developer Groups among many, I organizer/co-organize, Developer Circles Lagos from Facebook, unStack Africa, Open-Source Community Africa, and various other communities empowering Africa and the world with Technology. < br/> < br/>
 
